@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">openthread-br
-   &#160;<span id="projectnumber">0.3.0-bbb40c8</span>
+   &#160;<span id="projectnumber">0.3.0-6045047</span>
    </div>
   </td>
  </tr>
@@ -199,7 +199,7 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext
 <tr class="separator:a038f0ae3dccc7e9e701e7b647b8d19ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This interface defines the functionality of MDNS service. </p>
+<div class="textblock"><p>This interface defines the functionality of mDNS service. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="aea1cfd72140d8d469b149ee279b44766"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aea1cfd72140d8d469b149ee279b44766">&#9670;&nbsp;</a></span>DiscoveredHostCallback</h2>
@@ -289,7 +289,7 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext
         </tr>
       </table>
 </div><div class="memdoc">
-<p>This function pointer is called when MDNS service state changed.</p>
+<p>This function pointer is called when mDNS service state changed.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">aContext</td><td>A pointer to application-specific context. </td></tr>
@@ -320,7 +320,7 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext
   </tr>
 </table>
 </div><div class="memdoc">
-<p>MDNS state values. </p>
+<p>mDNS state values. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a33836f14c4f81a2487616acc08296fa4af5137a026a4b2f3b1c8a21cfc60dd14b"></a>kIdle&#160;</td><td class="fielddoc"><p>Unable to publish service. </p>
 </td></tr>
@@ -376,7 +376,7 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This function creates a MDNS publisher.</p>
+<p>This function creates a mDNS publisher.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">aProtocol</td><td>Protocol to use for publishing. AF_INET6, AF_INET or AF_UNSPEC. </td></tr>
@@ -386,7 +386,7 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A pointer to the newly created MDNS publisher. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>A pointer to the newly created mDNS publisher. </dd></dl>
 
 </div>
 </div>
@@ -413,7 +413,7 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This function destroys the MDNS publisher.</p>
+<p>This function destroys the mDNS publisher.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">aPublisher</td><td>A pointer to the publisher. </td></tr>
@@ -862,11 +862,11 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method starts the MDNS service.</p>
+<p>This method starts the mDNS service.</p>
 <dl class="retval"><dt>Return values</dt><dd>
   <table class="retval">
-    <tr><td class="paramname">OTBR_ERROR_NONE</td><td>Successfully started MDNS service; </td></tr>
-    <tr><td class="paramname">OTBR_ERROR_MDNS</td><td>Failed to start MDNS service. </td></tr>
+    <tr><td class="paramname">OTBR_ERROR_NONE</td><td>Successfully started mDNS service; </td></tr>
+    <tr><td class="paramname">OTBR_ERROR_MDNS</td><td>Failed to start mDNS service. </td></tr>
   </table>
   </dd>
 </dl>
@@ -898,7 +898,7 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method stops the MDNS service. </p>
+<p>This method stops the mDNS service. </p>
 
 <p>Implemented in <a class="el" href="../../db/dc6/classotbr_1_1Mdns_1_1PublisherAvahi.html#abfeabad327ca1ba53e4bae200d7f99af">otbr::Mdns::PublisherAvahi</a>, and <a class="el" href="../../de/d29/classotbr_1_1Mdns_1_1PublisherMDnsSd.html#a8e994c6a3e82bda87653e123fb67b8eb">otbr::Mdns::PublisherMDnsSd</a>.</p>
 
