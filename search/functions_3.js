@@ -10,7 +10,5 @@ var searchData=
   ['destroy_849',['Destroy',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a764c8e33ecdf355a4eaf60292e9484c2',1,'otbr::Mdns::Publisher']]],
   ['detach_850',['Detach',['../d4/d44/classotbr_1_1agent_1_1ThreadHelper.html#a7b818790e83d9ad3a330a80f96bc938f',1,'otbr::agent::ThreadHelper']]],
   ['diag2jsonstring_851',['Diag2JsonString',['../d0/d6c/namespaceotbr_1_1rest_1_1Json.html#a1d5fb81fc1a65c3d90406d6e1e9c5f35',1,'otbr::rest::Json']]],
-  ['discoveredhostinfo_852',['DiscoveredHostInfo',['../d9/db0/structotbr_1_1Mdns_1_1Publisher_1_1DiscoveredHostInfo.html#a6a9e616f7ad9f4e6d42f5cd0395437a6',1,'otbr::Mdns::Publisher::DiscoveredHostInfo']]],
-  ['discoveredinstanceinfo_853',['DiscoveredInstanceInfo',['../d9/d60/structotbr_1_1Mdns_1_1Publisher_1_1DiscoveredInstanceInfo.html#a25c49366dce10ec198c03fcce7db49b0',1,'otbr::Mdns::Publisher::DiscoveredInstanceInfo']]],
-  ['dumpdbusmessage_854',['DumpDBusMessage',['../df/de9/namespaceotbr_1_1DBus.html#ae1ff1319b519ce23b219248e1b1e57f0',1,'otbr::DBus']]]
+  ['dumpdbusmessage_852',['DumpDBusMessage',['../df/de9/namespaceotbr_1_1DBus.html#ae1ff1319b519ce23b219248e1b1e57f0',1,'otbr::DBus']]]
 ];
