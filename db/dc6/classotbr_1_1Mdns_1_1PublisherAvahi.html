@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">openthread-br
-   &#160;<span id="projectnumber">0.3.0-d5c593e</span>
+   &#160;<span id="projectnumber">0.3.0-741a5f7</span>
    </div>
   </td>
  </tr>
@@ -306,7 +306,7 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext
 </table>
 </div><div class="memdoc">
 <p>This method publishes or updates a host.</p>
-<p>Publishing a host is advertising an AAAA RR for the host name. This method should be called before a service with non-null host name is published.</p>
+<p>Publishing a host is advertising an A/AAAA RR for the host name. This method should be called before a service with non-null host name is published.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">aName</td><td>The name of the host. </td></tr>
@@ -318,6 +318,7 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext
 <dl class="retval"><dt>Return values</dt><dd>
   <table class="retval">
     <tr><td class="paramname">OTBR_ERROR_NONE</td><td>Successfully published or updated the host. </td></tr>
+    <tr><td class="paramname">OTBR_ERROR_INVALID_ARGS</td><td>The arguments are not valid. </td></tr>
     <tr><td class="paramname">OTBR_ERROR_ERRNO</td><td>Failed to publish or update the host. </td></tr>
   </table>
   </dd>
@@ -543,8 +544,8 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method subscribes a given service or service instance. If <code>aInstanceName</code> is not empty, this method subscribes the service instance. Otherwise, this method subscribes the service.</p>
-<p>mDNS implementations should use the <code>DiscoveredServiceInstanceCallback</code> function to notify discovered service instances.</p>
+<p>This method subscribes a given service or service instance.</p>
+<p>If <code>aInstanceName</code> is not empty, this method subscribes the service instance. Otherwise, this method subscribes the service. mDNS implementations should use the <code>DiscoveredServiceInstanceCallback</code> function to notify discovered service instances.</p>
 <dl class="section note"><dt>Note</dt><dd>Discovery Proxy implementation guarantees no duplicate subscriptions for the same service or service instance.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -591,11 +592,10 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext
 <dl class="retval"><dt>Return values</dt><dd>
   <table class="retval">
     <tr><td class="paramname">OTBR_ERROR_NONE</td><td>Successfully un-published the host. </td></tr>
-    <tr><td class="paramname">OTBR_ERROR_ERRNO</td><td>Failed to un-publish the host.</td></tr>
+    <tr><td class="paramname">OTBR_ERROR_ERRNO</td><td>Failed to un-publish the host. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section note"><dt>Note</dt><dd>All services reside on this host should be un-published by UnpublishService. </dd></dl>
 
 <p>Implements <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#aaa3a71982003da8ec92b297dc3a7551d">otbr::Mdns::Publisher</a>.</p>
 
@@ -723,7 +723,8 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext
   </tr>
 </table>
 </div><div class="memdoc">
-<p>This method unsubscribes a given service or service instance. If <code>aInstanceName</code> is not empty, this method unsubscribes the service instance. Otherwise, this method unsubscribes the service.</p>
+<p>This method unsubscribes a given service or service instance.</p>
+<p>If <code>aInstanceName</code> is not empty, this method unsubscribes the service instance. Otherwise, this method unsubscribes the service.</p>
 <dl class="section note"><dt>Note</dt><dd>Discovery Proxy implementation guarantees no redundant unsubscription for a service or service instance.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
