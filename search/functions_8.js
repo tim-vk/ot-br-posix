@@ -13,7 +13,7 @@ var searchData=
   ['ismulticast_934',['IsMulticast',['../d2/dfe/classotbr_1_1Ip6Address.html#a72f4ceeb43f1a642fc88aad229e81a4c',1,'otbr::Ip6Address']]],
   ['isservice_935',['IsService',['../d1/de1/structDnsNameInfo.html#a802bda00215d8c7c9d4a589370033383',1,'DnsNameInfo']]],
   ['isserviceinstance_936',['IsServiceInstance',['../d1/de1/structDnsNameInfo.html#aeeb6cdfb459c599bc95e2202e78cf517',1,'DnsNameInfo']]],
-  ['isservicetypeequal_937',['IsServiceTypeEqual',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a0dc12f5b83dfd3f1eec5c2366ddf39c7',1,'otbr::Mdns::Publisher']]],
+  ['isservicetypeequal_937',['IsServiceTypeEqual',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a8a0986338dc46f5ec71d1b728da0a7af',1,'otbr::Mdns::Publisher']]],
   ['isstarted_938',['IsStarted',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a75cf59bf3d84ac98c79a29fb22054ec8',1,'otbr::Mdns::Publisher::IsStarted()'],['../db/dc6/classotbr_1_1Mdns_1_1PublisherAvahi.html#a3621443d0205c646a0702adfc9ce5655',1,'otbr::Mdns::PublisherAvahi::IsStarted()'],['../de/d29/classotbr_1_1Mdns_1_1PublisherMDnsSd.html#a4415a4f7d927ddbf82f17daba70475b4',1,'otbr::Mdns::PublisherMDnsSd::IsStarted()']]],
   ['isunspecified_939',['IsUnspecified',['../d2/dfe/classotbr_1_1Ip6Address.html#aadf35800a600de9697206d4f643e7ea9',1,'otbr::Ip6Address']]],
   ['isvalid_940',['IsValid',['../da/d3a/classotbr_1_1Ip6Prefix.html#a21a9c868856a4f23677821285bf35614',1,'otbr::Ip6Prefix']]]
