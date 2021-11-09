@@ -9,7 +9,7 @@ var searchData=
   ['dbus_5fthread_5fobject_2ehpp_767',['dbus_thread_object.hpp',['../de/d2d/dbus__thread__object_8hpp.html',1,'']]],
   ['discovery_5fproxy_2ecpp_768',['discovery_proxy.cpp',['../d8/d57/discovery__proxy_8cpp.html',1,'']]],
   ['discovery_5fproxy_2ehpp_769',['discovery_proxy.hpp',['../df/d90/discovery__proxy_8hpp.html',1,'']]],
-  ['dns_5futils_2ehpp_770',['dns_utils.hpp',['../d9/d29/dns__utils_8hpp.html',1,'']]],
+  ['dns_5futils_2ehpp_770',['dns_utils.hpp',['../d9/da9/common_2dns__utils_8hpp.html',1,'(Global Namespace)'],['../d6/d66/utils_2dns__utils_8hpp.html',1,'(Global Namespace)']]],
   ['dua_5frouting_5fmanager_2ecpp_771',['dua_routing_manager.cpp',['../d4/de7/dua__routing__manager_8cpp.html',1,'']]],
   ['dua_5frouting_5fmanager_2ehpp_772',['dua_routing_manager.hpp',['../d7/daf/dua__routing__manager_8hpp.html',1,'']]]
 ];

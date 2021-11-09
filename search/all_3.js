@@ -53,7 +53,7 @@ var searchData=
   ['discoveredserviceinstancecallback_105',['DiscoveredServiceInstanceCallback',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#ae28cea59926db61523595d4e6967afd7',1,'otbr::Mdns::Publisher']]],
   ['discovery_5fproxy_2ecpp_106',['discovery_proxy.cpp',['../d8/d57/discovery__proxy_8cpp.html',1,'']]],
   ['discovery_5fproxy_2ehpp_107',['discovery_proxy.hpp',['../df/d90/discovery__proxy_8hpp.html',1,'']]],
-  ['dns_5futils_2ehpp_108',['dns_utils.hpp',['../d9/d29/dns__utils_8hpp.html',1,'']]],
+  ['dns_5futils_2ehpp_108',['dns_utils.hpp',['../d9/da9/common_2dns__utils_8hpp.html',1,'(Global Namespace)'],['../d6/d66/utils_2dns__utils_8hpp.html',1,'(Global Namespace)']]],
   ['dnsnameinfo_109',['DnsNameInfo',['../d1/de1/structDnsNameInfo.html',1,'']]],
   ['dua_5frouting_5fmanager_2ecpp_110',['dua_routing_manager.cpp',['../d4/de7/dua__routing__manager_8cpp.html',1,'']]],
   ['dua_5frouting_5fmanager_2ehpp_111',['dua_routing_manager.hpp',['../d7/daf/dua__routing__manager_8hpp.html',1,'']]],
