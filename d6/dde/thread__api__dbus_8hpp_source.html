@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">openthread-br
-   &#160;<span id="projectnumber">0.3.0-4f8d85b</span>
+   &#160;<span id="projectnumber">0.3.0-12c6a87</span>
    </div>
   </td>
  </tr>
@@ -234,52 +234,54 @@ $(function() {
 <div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160; </div>
 <div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;    std::string <a class="code" href="../../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#aa1a96770d0b1852845666799b3cf6aaa">GetInterfaceName</a>(<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160; </div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;    <a class="code" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a> CallDBusMethodSync(<span class="keyword">const</span> std::string &amp;aMethodName);</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;    <a class="code" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a> CallDBusMethodAsync(<span class="keyword">const</span> std::string &amp;aMethodName, DBusPendingCallNotifyFunction aFunction);</div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160; </div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ArgType&gt; <a class="code" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a> CallDBusMethodSync(<span class="keyword">const</span> std::string &amp;aMethodName, <span class="keyword">const</span> ArgType &amp;aArgs);</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160; </div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ArgType&gt;</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    <a class="code" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a> CallDBusMethodAsync(<span class="keyword">const</span> std::string &amp;           aMethodName,</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;                                    <span class="keyword">const</span> ArgType &amp;               aArgs,</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;                                    DBusPendingCallNotifyFunction aFunction);</div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160; </div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ValType&gt; <a class="code" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a> SetProperty(<span class="keyword">const</span> std::string &amp;aPropertyName, <span class="keyword">const</span> ValType &amp;aValue);</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160; </div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ValType&gt; <a class="code" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a> GetProperty(<span class="keyword">const</span> std::string &amp;aPropertyName, ValType &amp;aValue);</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160; </div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;    <a class="code" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a>              SubscribeDeviceRoleSignal(<span class="keywordtype">void</span>);</div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;    <span class="keyword">static</span> DBusHandlerResult sDBusMessageFilter(DBusConnection *aConnection, DBusMessage *aMessage, <span class="keywordtype">void</span> *aData);</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;    DBusHandlerResult        DBusMessageFilter(DBusConnection *aConnection, DBusMessage *aMessage);</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;    <a class="code" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a> <a class="code" href="../../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a42306282ca7bdf96ffdc6693267071a4">UpdateVendorMeshCopTxtEntries</a>(std::vector&lt;TxtEntry&gt; &amp;aUpdate);</div>
 <div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160; </div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;    <span class="keyword">template</span> &lt;<span class="keywordtype">void</span> (ThreadApiDBus::*Handler)(DBusPendingCall *aPending)&gt;</div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> sHandleDBusPendingCall(DBusPendingCall *aPending, <span class="keywordtype">void</span> *aThreadApiDBus);</div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160; </div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;    <span class="keywordtype">void</span>        AttachPendingCallHandler(DBusPendingCall *aPending);</div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;    <span class="keywordtype">void</span>        FactoryResetPendingCallHandler(DBusPendingCall *aPending);</div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;    <span class="keywordtype">void</span>        JoinerStartPendingCallHandler(DBusPendingCall *aPending);</div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> sScanPendingCallHandler(DBusPendingCall *aPending, <span class="keywordtype">void</span> *aThreadApiDBus);</div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;    <span class="keywordtype">void</span>        ScanPendingCallHandler(DBusPendingCall *aPending);</div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160; </div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> EmptyFree(<span class="keywordtype">void</span> *) {}</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;    <a class="code" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a> CallDBusMethodSync(<span class="keyword">const</span> std::string &amp;aMethodName);</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;    <a class="code" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a> CallDBusMethodAsync(<span class="keyword">const</span> std::string &amp;aMethodName, DBusPendingCallNotifyFunction aFunction);</div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160; </div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ArgType&gt; <a class="code" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a> CallDBusMethodSync(<span class="keyword">const</span> std::string &amp;aMethodName, <span class="keyword">const</span> ArgType &amp;aArgs);</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160; </div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ArgType&gt;</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;    <a class="code" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a> CallDBusMethodAsync(<span class="keyword">const</span> std::string &amp;           aMethodName,</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;                                    <span class="keyword">const</span> ArgType &amp;               aArgs,</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;                                    DBusPendingCallNotifyFunction aFunction);</div>
 <div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160; </div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;    std::string mInterfaceName;</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ValType&gt; <a class="code" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a> SetProperty(<span class="keyword">const</span> std::string &amp;aPropertyName, <span class="keyword">const</span> ValType &amp;aValue);</div>
 <div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160; </div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;    DBusConnection *mConnection;</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">typename</span> ValType&gt; <a class="code" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a> GetProperty(<span class="keyword">const</span> std::string &amp;aPropertyName, ValType &amp;aValue);</div>
 <div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160; </div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;    ScanHandler     mScanHandler;</div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;    OtResultHandler mAttachHandler;</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;    OtResultHandler mFactoryResetHandler;</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;    OtResultHandler mJoinerHandler;</div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160; </div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;    std::vector&lt;DeviceRoleHandler&gt; mDeviceRoleHandlers;</div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;};</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160; </div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;} <span class="comment">// namespace DBus</span></div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;} <span class="comment">// namespace otbr</span></div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160; </div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;<span class="preprocessor">#endif // OTBR_THREAD_API_DBUS_HPP_</span></div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;    <a class="code" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a>              SubscribeDeviceRoleSignal(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;    <span class="keyword">static</span> DBusHandlerResult sDBusMessageFilter(DBusConnection *aConnection, DBusMessage *aMessage, <span class="keywordtype">void</span> *aData);</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;    DBusHandlerResult        DBusMessageFilter(DBusConnection *aConnection, DBusMessage *aMessage);</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160; </div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;    <span class="keyword">template</span> &lt;<span class="keywordtype">void</span> (ThreadApiDBus::*Handler)(DBusPendingCall *aPending)&gt;</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> sHandleDBusPendingCall(DBusPendingCall *aPending, <span class="keywordtype">void</span> *aThreadApiDBus);</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160; </div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;    <span class="keywordtype">void</span>        AttachPendingCallHandler(DBusPendingCall *aPending);</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;    <span class="keywordtype">void</span>        FactoryResetPendingCallHandler(DBusPendingCall *aPending);</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    <span class="keywordtype">void</span>        JoinerStartPendingCallHandler(DBusPendingCall *aPending);</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> sScanPendingCallHandler(DBusPendingCall *aPending, <span class="keywordtype">void</span> *aThreadApiDBus);</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;    <span class="keywordtype">void</span>        ScanPendingCallHandler(DBusPendingCall *aPending);</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160; </div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> EmptyFree(<span class="keywordtype">void</span> *) {}</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160; </div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;    std::string mInterfaceName;</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160; </div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;    DBusConnection *mConnection;</div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160; </div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;    ScanHandler     mScanHandler;</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;    OtResultHandler mAttachHandler;</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;    OtResultHandler mFactoryResetHandler;</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;    OtResultHandler mJoinerHandler;</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160; </div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;    std::vector&lt;DeviceRoleHandler&gt; mDeviceRoleHandlers;</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;};</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160; </div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;} <span class="comment">// namespace DBus</span></div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;} <span class="comment">// namespace otbr</span></div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160; </div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;<span class="preprocessor">#endif // OTBR_THREAD_API_DBUS_HPP_</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="aclassotbr_1_1DBus_1_1ThreadApiDBus_html_aa4f18fdc8266b06d04e2e6c0106c7c04"><div class="ttname"><a href="../../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#aa4f18fdc8266b06d04e2e6c0106c7c04">otbr::DBus::ThreadApiDBus::GetNetworkKey</a></div><div class="ttdeci">ClientError GetNetworkKey(std::vector&lt; uint8_t &gt; &amp;aNetworkKey)</div><div class="ttdef"><b>Definition:</b> thread_api_dbus.cpp:447</div></div>
 <div class="ttc" id="aclassotbr_1_1DBus_1_1ThreadApiDBus_html_a0c143418162361a238a0647dc98a002f"><div class="ttname"><a href="../../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a0c143418162361a238a0647dc98a002f">otbr::DBus::ThreadApiDBus::SetRadioRegion</a></div><div class="ttdeci">ClientError SetRadioRegion(const std::string &amp;aRadioRegion)</div><div class="ttdef"><b>Definition:</b> thread_api_dbus.cpp:406</div></div>
@@ -303,6 +305,7 @@ $(function() {
 <div class="ttc" id="aclassotbr_1_1DBus_1_1ThreadApiDBus_html_aca90880438e3b74b702be4fc7c94440b"><div class="ttname"><a href="../../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#aca90880438e3b74b702be4fc7c94440b">otbr::DBus::ThreadApiDBus::AddExternalRoute</a></div><div class="ttdeci">ClientError AddExternalRoute(const ExternalRoute &amp;aExternalRoute)</div><div class="ttdef"><b>Definition:</b> thread_api_dbus.cpp:376</div></div>
 <div class="ttc" id="astructotbr_1_1DBus_1_1LeaderData_html"><div class="ttname"><a href="../../dd/d1d/structotbr_1_1DBus_1_1LeaderData.html">otbr::DBus::LeaderData</a></div><div class="ttdef"><b>Definition:</b> types.hpp:484</div></div>
 <div class="ttc" id="aclassotbr_1_1DBus_1_1ThreadApiDBus_html_af72d801fdf5c209038d676516e1ffbab"><div class="ttname"><a href="../../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#af72d801fdf5c209038d676516e1ffbab">otbr::DBus::ThreadApiDBus::SetMeshLocalPrefix</a></div><div class="ttdeci">ClientError SetMeshLocalPrefix(const std::array&lt; uint8_t, OTBR_IP6_PREFIX_SIZE &gt; &amp;aPrefix)</div><div class="ttdef"><b>Definition:</b> thread_api_dbus.cpp:386</div></div>
+<div class="ttc" id="aclassotbr_1_1DBus_1_1ThreadApiDBus_html_a42306282ca7bdf96ffdc6693267071a4"><div class="ttname"><a href="../../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a42306282ca7bdf96ffdc6693267071a4">otbr::DBus::ThreadApiDBus::UpdateVendorMeshCopTxtEntries</a></div><div class="ttdeci">ClientError UpdateVendorMeshCopTxtEntries(std::vector&lt; TxtEntry &gt; &amp;aUpdate)</div><div class="ttdef"><b>Definition:</b> thread_api_dbus.cpp:722</div></div>
 <div class="ttc" id="aclassotbr_1_1DBus_1_1ThreadApiDBus_html_a6675133a4f7ae0a299c204203d73d257"><div class="ttname"><a href="../../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a6675133a4f7ae0a299c204203d73d257">otbr::DBus::ThreadApiDBus::AttachAllNodesTo</a></div><div class="ttdeci">ClientError AttachAllNodesTo(const std::vector&lt; uint8_t &gt; &amp;aDataset)</div><div class="ttdef"><b>Definition:</b> thread_api_dbus.cpp:716</div></div>
 <div class="ttc" id="astructotbr_1_1DBus_1_1ExternalRoute_html"><div class="ttname"><a href="../../de/d00/structotbr_1_1DBus_1_1ExternalRoute.html">otbr::DBus::ExternalRoute</a></div><div class="ttdef"><b>Definition:</b> types.hpp:134</div></div>
 <div class="ttc" id="aclassotbr_1_1DBus_1_1ThreadApiDBus_html_ac593868629f70b26a85308b49b995c7f"><div class="ttname"><a href="../../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#ac593868629f70b26a85308b49b995c7f">otbr::DBus::ThreadApiDBus::GetCcaFailureRate</a></div><div class="ttdeci">ClientError GetCcaFailureRate(uint16_t &amp;aFailureRate)</div><div class="ttdef"><b>Definition:</b> thread_api_dbus.cpp:452</div></div>

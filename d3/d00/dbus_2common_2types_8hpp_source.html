@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">openthread-br
-   &#160;<span id="projectnumber">0.3.0-4f8d85b</span>
+   &#160;<span id="projectnumber">0.3.0-12c6a87</span>
    </div>
   </td>
  </tr>
@@ -315,10 +315,16 @@ $(function() {
 <div class="line"><a name="l00490"></a><span class="lineno"><a class="line" href="../../dd/d1d/structotbr_1_1DBus_1_1LeaderData.html#a7f0e0b4dcac139155d83554def71d47a">  490</a></span>&#160;    uint8_t  <a class="code" href="../../dd/d1d/structotbr_1_1DBus_1_1LeaderData.html#a7f0e0b4dcac139155d83554def71d47a">mLeaderRouterId</a>;    </div>
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;};</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160; </div>
-<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;} <span class="comment">// namespace DBus</span></div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;} <span class="comment">// namespace otbr</span></div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160; </div>
-<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;<span class="preprocessor">#endif // OTBR_DBUS_COMMON_TYPES_HPP_</span></div>
+<div class="line"><a name="l00493"></a><span class="lineno"><a class="line" href="../../d2/d60/structotbr_1_1DBus_1_1TxtEntry.html">  493</a></span>&#160;<span class="keyword">struct </span><a class="code" href="../../d2/d60/structotbr_1_1DBus_1_1TxtEntry.html">TxtEntry</a></div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;{</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;    std::string          mKey;</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;    std::vector&lt;uint8_t&gt; mValue;</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;};</div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160; </div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;} <span class="comment">// namespace DBus</span></div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;} <span class="comment">// namespace otbr</span></div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160; </div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;<span class="preprocessor">#endif // OTBR_DBUS_COMMON_TYPES_HPP_</span></div>
 </div><!-- fragment --></div><!-- contents -->
 <div class="ttc" id="astructotbr_1_1DBus_1_1MacCounters_html_a2927422f6bc922666f86e8b9bc80c471"><div class="ttname"><a href="../../d6/d98/structotbr_1_1DBus_1_1MacCounters.html#a2927422f6bc922666f86e8b9bc80c471">otbr::DBus::MacCounters::mRxErrFcs</a></div><div class="ttdeci">uint32_t mRxErrFcs</div><div class="ttdef"><b>Definition:</b> types.hpp:424</div></div>
 <div class="ttc" id="astructotbr_1_1DBus_1_1NeighborInfo_html_aa881139b906d55d7d4bdbb476a3b8008"><div class="ttname"><a href="../../d2/d47/structotbr_1_1DBus_1_1NeighborInfo.html#aa881139b906d55d7d4bdbb476a3b8008">otbr::DBus::NeighborInfo::mLastRssi</a></div><div class="ttdeci">int8_t mLastRssi</div><div class="ttdoc">Last observed RSSI.</div><div class="ttdef"><b>Definition:</b> types.hpp:475</div></div>
@@ -429,6 +435,7 @@ $(function() {
 <div class="ttc" id="astructotbr_1_1DBus_1_1MacCounters_html_a75ba4ecbcda1dd2c3279d1a9f8e1c353"><div class="ttname"><a href="../../d6/d98/structotbr_1_1DBus_1_1MacCounters.html#a75ba4ecbcda1dd2c3279d1a9f8e1c353">otbr::DBus::MacCounters::mTxAckRequested</a></div><div class="ttdeci">uint32_t mTxAckRequested</div><div class="ttdef"><b>Definition:</b> types.hpp:216</div></div>
 <div class="ttc" id="astructotbr_1_1DBus_1_1ActiveScanResult_html_a171dd1c157602e90f16997a84c228f65"><div class="ttname"><a href="../../d2/da8/structotbr_1_1DBus_1_1ActiveScanResult.html#a171dd1c157602e90f16997a84c228f65">otbr::DBus::ActiveScanResult::mNetworkName</a></div><div class="ttdeci">std::string mNetworkName</div><div class="ttdoc">Thread Network Name.</div><div class="ttdef"><b>Definition:</b> types.hpp:59</div></div>
 <div class="ttc" id="astructotbr_1_1DBus_1_1ActiveScanResult_html_a71378cafee4b28d43eaee225e83dfeaa"><div class="ttname"><a href="../../d2/da8/structotbr_1_1DBus_1_1ActiveScanResult.html#a71378cafee4b28d43eaee225e83dfeaa">otbr::DBus::ActiveScanResult::mRssi</a></div><div class="ttdeci">int8_t mRssi</div><div class="ttdoc">RSSI (dBm)</div><div class="ttdef"><b>Definition:</b> types.hpp:65</div></div>
+<div class="ttc" id="astructotbr_1_1DBus_1_1TxtEntry_html"><div class="ttname"><a href="../../d2/d60/structotbr_1_1DBus_1_1TxtEntry.html">otbr::DBus::TxtEntry</a></div><div class="ttdef"><b>Definition:</b> types.hpp:493</div></div>
 <div class="ttc" id="astructotbr_1_1DBus_1_1ChildInfo_html_a05c911116e7656f845cfd06ff2abb10e"><div class="ttname"><a href="../../db/d06/structotbr_1_1DBus_1_1ChildInfo.html#a05c911116e7656f845cfd06ff2abb10e">otbr::DBus::ChildInfo::mMessageErrorRate</a></div><div class="ttdeci">uint16_t mMessageErrorRate</div><div class="ttdoc">(IPv6) msg error rate (0xffff-&gt;100%). Requires error tracking feature.</div><div class="ttdef"><b>Definition:</b> types.hpp:459</div></div>
 <div class="ttc" id="astructotbr_1_1DBus_1_1MacCounters_html_ab78ba14fe7bd2713f2bda2c25b763e5f"><div class="ttname"><a href="../../d6/d98/structotbr_1_1DBus_1_1MacCounters.html#ab78ba14fe7bd2713f2bda2c25b763e5f">otbr::DBus::MacCounters::mRxOther</a></div><div class="ttdeci">uint32_t mRxOther</div><div class="ttdef"><b>Definition:</b> types.hpp:370</div></div>
 <div class="ttc" id="astructotbr_1_1DBus_1_1ActiveScanResult_html_a92ac1f9fc3453dfc644beb9c7add0c56"><div class="ttname"><a href="../../d2/da8/structotbr_1_1DBus_1_1ActiveScanResult.html#a92ac1f9fc3453dfc644beb9c7add0c56">otbr::DBus::ActiveScanResult::mIsNative</a></div><div class="ttdeci">bool mIsNative</div><div class="ttdoc">Native Commissioner flag.</div><div class="ttdef"><b>Definition:</b> types.hpp:68</div></div>
