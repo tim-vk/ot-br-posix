@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">openthread-br
-   &#160;<span id="projectnumber">0.3.0-7d61390</span>
+   &#160;<span id="projectnumber">0.3.0-d14c225</span>
    </div>
   </td>
  </tr>
@@ -369,7 +369,7 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">aHostName</td><td>The name of the host which this service resides on. If an empty string is provided, this service resides on local host and it is the implementation to provide specific host name. Otherwise, the caller MUST publish the host with method PublishHost. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aPort</td><td>The port number of this service. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">aName</td><td>The name of this service. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aName</td><td>The name of this service. Note that the published service name may be different from the original name due to renaming. You should always pass in the original name here to make sure you are referring to the intended service. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aType</td><td>The type of this service. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aSubTypeList</td><td>A list of service subtypes. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aTxtList</td><td>A list of TXT name/value pairs.</td></tr>
@@ -616,7 +616,7 @@ void *&#160;</td><td class="memItemRight" valign="bottom"><b>mHostHandlerContext
 <p>This method un-publishes a service.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">aName</td><td>The name of this service. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aName</td><td>The name of this service. Note that the published service name may be different from the original name due to renaming. You should always pass in the original name here to make sure you are referring to the intended service. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aType</td><td>The type of this service.</td></tr>
   </table>
   </dd>
