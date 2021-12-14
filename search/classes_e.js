@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['ubusagent_743',['UBusAgent',['../df/d00/classotbr_1_1ubus_1_1UBusAgent.html',1,'otbr::ubus']]],
-  ['ubusserver_744',['UbusServer',['../d9/dea/classotbr_1_1ubus_1_1UbusServer.html',1,'otbr::ubus']]]
+  ['ubusagent_747',['UBusAgent',['../df/d00/classotbr_1_1ubus_1_1UBusAgent.html',1,'otbr::ubus']]],
+  ['ubusserver_748',['UbusServer',['../d9/dea/classotbr_1_1ubus_1_1UbusServer.html',1,'otbr::ubus']]]
 ];
