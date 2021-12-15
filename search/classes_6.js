@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['leaderdata_718',['LeaderData',['../dd/d1d/structotbr_1_1DBus_1_1LeaderData.html',1,'otbr::DBus']]],
-  ['linkmodeconfig_719',['LinkModeConfig',['../d1/d82/structotbr_1_1DBus_1_1LinkModeConfig.html',1,'otbr::DBus']]]
+  ['leaderdata_724',['LeaderData',['../dd/d1d/structotbr_1_1DBus_1_1LeaderData.html',1,'otbr::DBus']]],
+  ['linkmodeconfig_725',['LinkModeConfig',['../d1/d82/structotbr_1_1DBus_1_1LinkModeConfig.html',1,'otbr::DBus']]]
 ];
