@@ -44,10 +44,11 @@ var searchData=
   ['stop_576',['Stop',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#adeb467b4e2b34bd533156005f56e0844',1,'otbr::Mdns::Publisher::Stop()'],['../db/dc6/classotbr_1_1Mdns_1_1PublisherAvahi.html#abfeabad327ca1ba53e4bae200d7f99af',1,'otbr::Mdns::PublisherAvahi::Stop()'],['../de/d29/classotbr_1_1Mdns_1_1PublisherMDnsSd.html#a8e994c6a3e82bda87653e123fb67b8eb',1,'otbr::Mdns::PublisherMDnsSd::Stop()']]],
   ['stopwebserver_577',['StopWebServer',['../d6/d83/classotbr_1_1Web_1_1WebServer.html#acde2416312f5b4c0102cc1c8f18d2723',1,'otbr::Web::WebServer']]],
   ['string2jsonstring_578',['String2JsonString',['../d0/d6c/namespaceotbr_1_1rest_1_1Json.html#a9825acdf9bc3300aa48852d9a193a619',1,'otbr::rest::Json']]],
-  ['subscribehost_579',['SubscribeHost',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a454e7ed9403a336941633b1610251567',1,'otbr::Mdns::Publisher::SubscribeHost()'],['../db/dc6/classotbr_1_1Mdns_1_1PublisherAvahi.html#a5380ae44ef5f58e1751a888aae90b8ee',1,'otbr::Mdns::PublisherAvahi::SubscribeHost()'],['../de/d29/classotbr_1_1Mdns_1_1PublisherMDnsSd.html#aa3460cf1e8c8be6eed2f4c728545cd1d',1,'otbr::Mdns::PublisherMDnsSd::SubscribeHost()']]],
-  ['subscribeservice_580',['SubscribeService',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a9e445114c02d9fd53f962c464f4f8e02',1,'otbr::Mdns::Publisher::SubscribeService()'],['../db/dc6/classotbr_1_1Mdns_1_1PublisherAvahi.html#ac96dc07653c50aab9c15ff1ac178a6e6',1,'otbr::Mdns::PublisherAvahi::SubscribeService()'],['../de/d29/classotbr_1_1Mdns_1_1PublisherMDnsSd.html#a95ecb9cceb50773c907042a5fce76c24',1,'otbr::Mdns::PublisherMDnsSd::SubscribeService()']]],
-  ['successordie_581',['SuccessOrDie',['../da/d7b/code__utils_8hpp.html#af38b11ab2e5093086804add4a45f274a',1,'code_utils.hpp']]],
-  ['successorexit_582',['SuccessOrExit',['../da/d7b/code__utils_8hpp.html#ae0d90ad12fb508f30107b1931f970ab1',1,'code_utils.hpp']]],
-  ['system_5futils_2ecpp_583',['system_utils.cpp',['../d1/da2/system__utils_8cpp.html',1,'']]],
-  ['system_5futils_2ehpp_584',['system_utils.hpp',['../d4/d44/system__utils_8hpp.html',1,'']]]
+  ['string_5futils_2ehpp_579',['string_utils.hpp',['../dc/d11/string__utils_8hpp.html',1,'']]],
+  ['subscribehost_580',['SubscribeHost',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a454e7ed9403a336941633b1610251567',1,'otbr::Mdns::Publisher::SubscribeHost()'],['../db/dc6/classotbr_1_1Mdns_1_1PublisherAvahi.html#a5380ae44ef5f58e1751a888aae90b8ee',1,'otbr::Mdns::PublisherAvahi::SubscribeHost()'],['../de/d29/classotbr_1_1Mdns_1_1PublisherMDnsSd.html#aa3460cf1e8c8be6eed2f4c728545cd1d',1,'otbr::Mdns::PublisherMDnsSd::SubscribeHost()']]],
+  ['subscribeservice_581',['SubscribeService',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a9e445114c02d9fd53f962c464f4f8e02',1,'otbr::Mdns::Publisher::SubscribeService()'],['../db/dc6/classotbr_1_1Mdns_1_1PublisherAvahi.html#ac96dc07653c50aab9c15ff1ac178a6e6',1,'otbr::Mdns::PublisherAvahi::SubscribeService()'],['../de/d29/classotbr_1_1Mdns_1_1PublisherMDnsSd.html#a95ecb9cceb50773c907042a5fce76c24',1,'otbr::Mdns::PublisherMDnsSd::SubscribeService()']]],
+  ['successordie_582',['SuccessOrDie',['../da/d7b/code__utils_8hpp.html#af38b11ab2e5093086804add4a45f274a',1,'code_utils.hpp']]],
+  ['successorexit_583',['SuccessOrExit',['../da/d7b/code__utils_8hpp.html#ae0d90ad12fb508f30107b1931f970ab1',1,'code_utils.hpp']]],
+  ['system_5futils_2ecpp_584',['system_utils.cpp',['../d1/da2/system__utils_8cpp.html',1,'']]],
+  ['system_5futils_2ehpp_585',['system_utils.hpp',['../d4/d44/system__utils_8hpp.html',1,'']]]
 ];
