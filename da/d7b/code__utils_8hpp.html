@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">openthread-br
-   &#160;<span id="projectnumber">0.3.0-50e19c3</span>
+   &#160;<span id="projectnumber">0.3.0-2e8f895</span>
    </div>
   </td>
  </tr>
@@ -217,13 +217,13 @@ template&lt;typename T , typename... Args&gt; </td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                                                           \</div>
-<div class="line">    {                                                                            \</div>
-<div class="line">        if ((aStatus) != 0)                                                      \</div>
-<div class="line">        {                                                                        \</div>
-<div class="line">            otbrLogEmerg(<span class="stringliteral">&quot;FAILED %s:%d - %s&quot;</span>, __FUNCTION__, __LINE__, aMessage); \</div>
-<div class="line">            exit(-1);                                                            \</div>
-<div class="line">        }                                                                        \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                                                       \</div>
+<div class="line">    {                                                                        \</div>
+<div class="line">        if ((aStatus) != 0)                                                  \</div>
+<div class="line">        {                                                                    \</div>
+<div class="line">            otbrLogEmerg(<span class="stringliteral">&quot;FAILED %s:%d - %s&quot;</span>, __FILE__, __LINE__, aMessage); \</div>
+<div class="line">            exit(-1);                                                        \</div>
+<div class="line">        }                                                                    \</div>
 <div class="line">    } <span class="keywordflow">while</span> (<span class="keyword">false</span>)</div>
 </div><!-- fragment --><p>This macro verifies a given error status to be successful (compared against value zero (0)), otherwise, it emits a given error messages and exits the program.</p>
 <dl class="params"><dt>Parameters</dt><dd>
@@ -293,13 +293,13 @@ template&lt;typename T , typename... Args&gt; </td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                                                           \</div>
-<div class="line">    {                                                                            \</div>
-<div class="line">        if (!(aCondition))                                                       \</div>
-<div class="line">        {                                                                        \</div>
-<div class="line">            otbrLogEmerg(<span class="stringliteral">&quot;FAILED %s:%d - %s&quot;</span>, __FUNCTION__, __LINE__, aMessage); \</div>
-<div class="line">            exit(-1);                                                            \</div>
-<div class="line">        }                                                                        \</div>
+<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">do</span>                                                                       \</div>
+<div class="line">    {                                                                        \</div>
+<div class="line">        if (!(aCondition))                                                   \</div>
+<div class="line">        {                                                                    \</div>
+<div class="line">            otbrLogEmerg(<span class="stringliteral">&quot;FAILED %s:%d - %s&quot;</span>, __FILE__, __LINE__, aMessage); \</div>
+<div class="line">            exit(-1);                                                        \</div>
+<div class="line">        }                                                                    \</div>
 <div class="line">    } <span class="keywordflow">while</span> (<span class="keyword">false</span>)</div>
 </div><!-- fragment --><p>This macro checks for the specified condition, which is expected to commonly be true, and both prints the message and terminates the program if the condition is false.</p>
 <dl class="params"><dt>Parameters</dt><dd>
