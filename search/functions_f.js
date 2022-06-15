@@ -1,7 +1,7 @@
 var searchData=
 [
   ['read_1058',['Read',['../d3/d3f/classotbr_1_1Web_1_1OpenThreadClient.html#ae94d437e6107bc18688865a865f2006f',1,'otbr::Web::OpenThreadClient']]],
-  ['registergetpropertyhandler_1059',['RegisterGetPropertyHandler',['../da/d4d/classotbr_1_1DBus_1_1DBusObject.html#aa97d32189556dbfd02f84d46817b18e7',1,'otbr::DBus::DBusObject']]],
+  ['registergetpropertyhandler_1059',['RegisterGetPropertyHandler',['../da/d4d/classotbr_1_1DBus_1_1DBusObject.html#a4e58bc06a49c62c4db7119b58c794296',1,'otbr::DBus::DBusObject::RegisterGetPropertyHandler()'],['../de/d73/classotbr_1_1DBus_1_1DBusThreadObject.html#abbb1aaa710d4e6a69b69484a6bdd623c',1,'otbr::DBus::DBusThreadObject::RegisterGetPropertyHandler()']]],
   ['registermethod_1060',['RegisterMethod',['../da/d4d/classotbr_1_1DBus_1_1DBusObject.html#a260123f74ab6d1781ad12966c774ba53',1,'otbr::DBus::DBusObject']]],
   ['registerresethandler_1061',['RegisterResetHandler',['../db/d17/classotbr_1_1Ncp_1_1ControllerOpenThread.html#ac48d8ebc69b8654edc2c071648d3e7a8',1,'otbr::Ncp::ControllerOpenThread']]],
   ['registersetpropertyhandler_1062',['RegisterSetPropertyHandler',['../da/d4d/classotbr_1_1DBus_1_1DBusObject.html#ada021d44f72a311d39d114f4b424b1a7',1,'otbr::DBus::DBusObject']]],
