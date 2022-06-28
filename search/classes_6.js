@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['ip6address_776',['Ip6Address',['../d2/dfe/classotbr_1_1Ip6Address.html',1,'otbr']]],
-  ['ip6prefix_777',['Ip6Prefix',['../da/d56/structotbr_1_1DBus_1_1Ip6Prefix.html',1,'otbr::DBus::Ip6Prefix'],['../da/d3a/classotbr_1_1Ip6Prefix.html',1,'otbr::Ip6Prefix']]],
-  ['ipcounters_778',['IpCounters',['../da/d27/structotbr_1_1DBus_1_1IpCounters.html',1,'otbr::DBus']]]
+  ['ip6address_791',['Ip6Address',['../d2/dfe/classotbr_1_1Ip6Address.html',1,'otbr']]],
+  ['ip6prefix_792',['Ip6Prefix',['../da/d56/structotbr_1_1DBus_1_1Ip6Prefix.html',1,'otbr::DBus::Ip6Prefix'],['../da/d3a/classotbr_1_1Ip6Prefix.html',1,'otbr::Ip6Prefix']]],
+  ['ipcounters_793',['IpCounters',['../da/d27/structotbr_1_1DBus_1_1IpCounters.html',1,'otbr::DBus']]]
 ];
