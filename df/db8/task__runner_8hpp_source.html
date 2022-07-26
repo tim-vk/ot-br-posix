@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">openthread-br
-   &#160;<span id="projectnumber">0.3.0-7975f40</span>
+   &#160;<span id="projectnumber">0.3.0-b0edec3</span>
    </div>
   </td>
  </tr>
@@ -124,15 +124,15 @@ $(function() {
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <a class="code" href="../../dd/d62/classotbr_1_1TaskRunner.html#a7dedd7137f7bcb25cd8b2ae3dce1fad2">~TaskRunner</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dd/d62/classotbr_1_1TaskRunner.html#aa26145e87b20bd4e565ca4c81e7e387d">Post</a>(<span class="keyword">const</span> <a class="code" href="../../dd/d62/classotbr_1_1TaskRunner.html#a470cbb92816291e11e4b902edc28baef">Task&lt;void&gt;</a> aTask);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dd/d62/classotbr_1_1TaskRunner.html#a855d8b8d7d566a51c5e3ed72d0243b69">Post</a>(<a class="code" href="../../dd/d62/classotbr_1_1TaskRunner.html#a470cbb92816291e11e4b902edc28baef">Task&lt;void&gt;</a> aTask);</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160; </div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dd/d62/classotbr_1_1TaskRunner.html#aa26145e87b20bd4e565ca4c81e7e387d">Post</a>(Milliseconds aDelay, <span class="keyword">const</span> <a class="code" href="../../dd/d62/classotbr_1_1TaskRunner.html#a470cbb92816291e11e4b902edc28baef">Task&lt;void&gt;</a> aTask);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dd/d62/classotbr_1_1TaskRunner.html#a855d8b8d7d566a51c5e3ed72d0243b69">Post</a>(Milliseconds aDelay, <a class="code" href="../../dd/d62/classotbr_1_1TaskRunner.html#a470cbb92816291e11e4b902edc28baef">Task&lt;void&gt;</a> aTask);</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160; </div>
 <div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="../../dd/d62/classotbr_1_1TaskRunner.html#a84c4ad8ba3c651236047b111e3e7ecb9">  109</a></span>&#160;    <span class="keyword">template</span> &lt;<span class="keyword">class</span> T&gt; T <a class="code" href="../../dd/d62/classotbr_1_1TaskRunner.html#a84c4ad8ba3c651236047b111e3e7ecb9">PostAndWait</a>(<span class="keyword">const</span> <a class="code" href="../../dd/d62/classotbr_1_1TaskRunner.html#a470cbb92816291e11e4b902edc28baef">Task&lt;T&gt;</a> &amp;aTask)</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    {</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        std::promise&lt;T&gt; pro;</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160; </div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <a class="code" href="../../dd/d62/classotbr_1_1TaskRunner.html#aa26145e87b20bd4e565ca4c81e7e387d">Post</a>([&amp;pro, &amp;aTask]() { pro.set_value(aTask()); });</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <a class="code" href="../../dd/d62/classotbr_1_1TaskRunner.html#a855d8b8d7d566a51c5e3ed72d0243b69">Post</a>([&amp;pro, &amp;aTask]() { pro.set_value(aTask()); });</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">return</span> pro.get_future().get();</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    }</div>
@@ -176,7 +176,7 @@ $(function() {
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        Task&lt;void&gt;   mTask;</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    };</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordtype">void</span> PushTask(Milliseconds aDelay, <span class="keyword">const</span> Task&lt;void&gt; aTask);</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordtype">void</span> PushTask(Milliseconds aDelay, Task&lt;void&gt; aTask);</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordtype">void</span> PopTasks(<span class="keywordtype">void</span>);</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160; </div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="comment">// The event fds which are used to wakeup the mainloop</span></div>
@@ -202,13 +202,13 @@ $(function() {
 <div class="ttc" id="aclassotbr_1_1TaskRunner_html_a87019d8e1f65bd804c4ff27ad5a4e301"><div class="ttname"><a href="../../dd/d62/classotbr_1_1TaskRunner.html#a87019d8e1f65bd804c4ff27ad5a4e301">otbr::TaskRunner::TaskRunner</a></div><div class="ttdeci">TaskRunner(void)</div><div class="ttdef"><b>Definition:</b> task_runner.cpp:45</div></div>
 <div class="ttc" id="aclassotbr_1_1TaskRunner_html_a8112755a69ec1757a3c39f7a842bab3b"><div class="ttname"><a href="../../dd/d62/classotbr_1_1TaskRunner.html#a8112755a69ec1757a3c39f7a842bab3b">otbr::TaskRunner::Process</a></div><div class="ttdeci">void Process(const MainloopContext &amp;aMainloop) override</div><div class="ttdef"><b>Definition:</b> task_runner.cpp:112</div></div>
 <div class="ttc" id="acode__utils_8hpp_html"><div class="ttname"><a href="../../da/d7b/code__utils_8hpp.html">code_utils.hpp</a></div></div>
-<div class="ttc" id="aclassotbr_1_1TaskRunner_html_aa26145e87b20bd4e565ca4c81e7e387d"><div class="ttname"><a href="../../dd/d62/classotbr_1_1TaskRunner.html#aa26145e87b20bd4e565ca4c81e7e387d">otbr::TaskRunner::Post</a></div><div class="ttdeci">void Post(const Task&lt; void &gt; aTask)</div><div class="ttdef"><b>Definition:</b> task_runner.cpp:73</div></div>
 <div class="ttc" id="aclassotbr_1_1TaskRunner_html_a470cbb92816291e11e4b902edc28baef"><div class="ttname"><a href="../../dd/d62/classotbr_1_1TaskRunner.html#a470cbb92816291e11e4b902edc28baef">otbr::TaskRunner::Task</a></div><div class="ttdeci">std::function&lt; T(void)&gt; Task</div><div class="ttdef"><b>Definition:</b> task_runner.hpp:63</div></div>
 <div class="ttc" id="aclassotbr_1_1TaskRunner_html_a84c4ad8ba3c651236047b111e3e7ecb9"><div class="ttname"><a href="../../dd/d62/classotbr_1_1TaskRunner.html#a84c4ad8ba3c651236047b111e3e7ecb9">otbr::TaskRunner::PostAndWait</a></div><div class="ttdeci">T PostAndWait(const Task&lt; T &gt; &amp;aTask)</div><div class="ttdef"><b>Definition:</b> task_runner.hpp:109</div></div>
 <div class="ttc" id="aconfig_8h_html"><div class="ttname"><a href="../../db/d16/config_8h.html">config.h</a></div></div>
 <div class="ttc" id="aclassotbr_1_1TaskRunner_html"><div class="ttname"><a href="../../dd/d62/classotbr_1_1TaskRunner.html">otbr::TaskRunner</a></div><div class="ttdef"><b>Definition:</b> task_runner.hpp:56</div></div>
 <div class="ttc" id="atime_8hpp_html"><div class="ttname"><a href="../../de/d99/time_8hpp.html">time.hpp</a></div></div>
 <div class="ttc" id="amainloop_8hpp_html_af517b768b4ea7748a2ad90dee62efc60"><div class="ttname"><a href="../../d0/dfd/mainloop_8hpp.html#af517b768b4ea7748a2ad90dee62efc60">otbr::MainloopContext</a></div><div class="ttdeci">otSysMainloopContext MainloopContext</div><div class="ttdef"><b>Definition:</b> mainloop.hpp:47</div></div>
+<div class="ttc" id="aclassotbr_1_1TaskRunner_html_a855d8b8d7d566a51c5e3ed72d0243b69"><div class="ttname"><a href="../../dd/d62/classotbr_1_1TaskRunner.html#a855d8b8d7d566a51c5e3ed72d0243b69">otbr::TaskRunner::Post</a></div><div class="ttdeci">void Post(Task&lt; void &gt; aTask)</div><div class="ttdef"><b>Definition:</b> task_runner.cpp:73</div></div>
 <div class="ttc" id="aclassNonCopyable_html"><div class="ttname"><a href="../../dc/d3c/classNonCopyable.html">NonCopyable</a></div><div class="ttdef"><b>Definition:</b> code_utils.hpp:169</div></div>
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
