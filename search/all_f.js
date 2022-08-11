@@ -14,6 +14,6 @@ var searchData=
   ['publisher_600',['Publisher',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html',1,'otbr::Mdns']]],
   ['publisheravahi_601',['PublisherAvahi',['../db/dc6/classotbr_1_1Mdns_1_1PublisherAvahi.html',1,'otbr::Mdns']]],
   ['publishermdnssd_602',['PublisherMDnsSd',['../de/d29/classotbr_1_1Mdns_1_1PublisherMDnsSd.html',1,'otbr::Mdns']]],
-  ['publishhost_603',['PublishHost',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a3356f7da3ffc6a1804077ec4ae2b1843',1,'otbr::Mdns::Publisher']]],
+  ['publishhost_603',['PublishHost',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a365f39ea97f43fc88ec1298d6801c02f',1,'otbr::Mdns::Publisher']]],
   ['publishservice_604',['PublishService',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a29fa40d6aafef7f44cfe6735d9931f90',1,'otbr::Mdns::Publisher']]]
 ];
