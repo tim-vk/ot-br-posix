@@ -64,7 +64,7 @@
 <a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.RadioRegion" title='The "RadioRegion" property'>RadioRegion</a>                      readwrite  s
 <a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.SrpServerInfo" title='The "SrpServerInfo" property'>SrpServerInfo</a>                    readable   (yqy(uutttt)(uutttt)(uuuuuu))
 <a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.DnssdCounters" title='The "DnssdCounters" property'>DnssdCounters</a>                    readable   (uuuuuuu)
-<a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.MdnsTelemetryInfo" title='The "MdnsTelemetryInfo" property'>MdnsTelemetryInfo</a>                readable   (uuuuuu)(uuuuuu)(uuuuuu)(uuuuuu)uuuu
+<a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.MdnsTelemetryInfo" title='The "MdnsTelemetryInfo" property'>MdnsTelemetryInfo</a>                readable   (uuuuuuu)(uuuuuuu)(uuuuuuu)(uuuuuuu)uuuu
 <a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.OtHostVersion" title='The "OtHostVersion" property'>OtHostVersion</a>                    readable   s
 <a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.OtRcpVersion" title='The "OtRcpVersion" property'>OtRcpVersion</a>                     readable   s
 <a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.ThreadVersion" title='The "ThreadVersion" property'>ThreadVersion</a>                    readable   q
@@ -451,7 +451,7 @@ DnssdCounters  readable   (uuuuuuu)
         }<br>
       </p></div><p>
 </p></div><div class="refsect2"><a name="gdbus-property-io-openthread-BorderRouter.MdnsTelemetryInfo"></a><h3>The "MdnsTelemetryInfo" property</h3><a class="indexterm" name="idm606"></a><pre class="programlisting">
-MdnsTelemetryInfo  readable   (uuuuuu)(uuuuuu)(uuuuuu)(uuuuuu)uuuu
+MdnsTelemetryInfo  readable   (uuuuuuu)(uuuuuuu)(uuuuuuu)(uuuuuuu)uuuu
 </pre><p>The MDNS information</p><p>    </p><div class="literallayout"><p><br>
         struct {<br>
           struct {  // host registration responses<br>
@@ -461,6 +461,7 @@ MdnsTelemetryInfo  readable   (uuuuuu)(uuuuuu)(uuuuuu)(uuuuuu)uuuu
             uint32 duplicated<br>
             uint32 not_implemented<br>
             uint32 unknown_error<br>
+            uint32 aborted<br>
           }<br>
           struct {  // service registration responses<br>
             uint32 success<br>
@@ -469,6 +470,7 @@ MdnsTelemetryInfo  readable   (uuuuuu)(uuuuuu)(uuuuuu)(uuuuuu)uuuu
             uint32 duplicated<br>
             uint32 not_implemented<br>
             uint32 unknown_error<br>
+            uint32 aborted<br>
           }<br>
           struct {  // host resolution responses<br>
             uint32 success<br>
@@ -477,6 +479,7 @@ MdnsTelemetryInfo  readable   (uuuuuu)(uuuuuu)(uuuuuu)(uuuuuu)uuuu
             uint32 duplicated<br>
             uint32 not_implemented<br>
             uint32 unknown_error<br>
+            uint32 aborted<br>
           }<br>
           struct {  // service resolution responses<br>
             uint32 success<br>
@@ -485,6 +488,7 @@ MdnsTelemetryInfo  readable   (uuuuuu)(uuuuuu)(uuuuuu)(uuuuuu)uuuu
             uint32 duplicated<br>
             uint32 not_implemented<br>
             uint32 unknown_error<br>
+            uint32 aborted<br>
           }<br>
           uint32 host_registration_ema_latency<br>
           uint32 service_registration_ema_latency<br>
