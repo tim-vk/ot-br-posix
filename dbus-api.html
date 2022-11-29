@@ -53,7 +53,7 @@
 <a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.ChannelMonitorSampleCount" title='The "ChannelMonitorSampleCount" property'>ChannelMonitorSampleCount</a>        readable   u
 <a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.ChannelMonitorChannelQualityMap" title='The "ChannelMonitorChannelQualityMap" property'>ChannelMonitorChannelQualityMap</a>  readable   a(yq)
 <a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.ChildTable" title='The "ChildTable" property'>ChildTable</a>                       readable   a(tuuqqyyyyqqbbbb)
-<a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.NeighborTable" title='The "NeighborTable" property'>NeighborTable</a>                    readable   a(tuquuyyyqqbbbb)
+<a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.NeighborTable" title='The "NeighborTable" property'>NeighborTable</a>                    readable   a(tuquuyyyqqqbbbb)
 <a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.PartitionId" title='The "PartitionId" property'>PartitionId</a>                      readable   u
 <a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.InstantRssi" title='The "InstantRssi" property'>InstantRssi</a>                      readable   y
 <a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.RadioTxPower" title='The "RadioTxPower" property'>RadioTxPower</a>                     readable   y
@@ -476,7 +476,7 @@ bool     mIsStateRestoring;   // Is in restoring state<br>
 }<br>
 </p></div><p>
 </p></div><div class="refsect2"><a name="gdbus-property-io-openthread-BorderRouter.NeighborTable"></a><h3>The "NeighborTable" property</h3><a class="indexterm" name="idm534"></a><pre class="programlisting">
-NeighborTable  readable   a(tuquuyyyqqbbbb)
+NeighborTable  readable   a(tuquuyyyqqqbbbb)
 </pre><p>
 The node's neighbor table as an array of neighbor entry structure.
 </p><p>
@@ -493,6 +493,7 @@ int8_t   mAverageRssi;       // Average RSSI<br>
 int8_t   mLastRssi;          // Last observed RSSI<br>
 uint16_t mFrameErrorRate;    // Frame error rate (0xffff-&gt;100<code class="constant"></code>). Requires error tracking feature.<br>
 uint16_t mMessageErrorRate;  // (IPv6) msg error rate (0xffff-&gt;100<code class="constant"></code>). Requires error tracking feature.<br>
+uint16_t mVersion;           // Thread version of the neighbor<br>
 bool     mRxOnWhenIdle;      // rx-on-when-idle<br>
 bool     mFullThreadDevice;  // Full Thread Device<br>
 bool     mFullNetworkData;   // Full Network Data<br>
