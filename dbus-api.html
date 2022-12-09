@@ -77,7 +77,7 @@
 <a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.Nat64Mappings" title='The "Nat64Mappings" property'>Nat64Mappings</a>                    readable   a(tayayu((tttt)(tttt)(tttt)(tttt)))
 <a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.Nat64ProtocolCounters" title='The "Nat64ProtocolCounters" property'>Nat64ProtocolCounters</a>            readable   ((tttt)(tttt)(tttt)(tttt))
 <a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.Nat64ErrorCounters" title='The "Nat64ErrorCounters" property'>Nat64ErrorCounters</a>               readable   ((tt)(tt)(tt)(tt))
-<a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.BorderRoutingCounters" title='The "BorderRoutingCounters" property'>BorderRoutingCounters</a>            readable   ((tt)(tt)(tt)(tt))
+<a class="link" href="index.html#gdbus-property-io-openthread-BorderRouter.BorderRoutingCounters" title='The "BorderRoutingCounters" property'>BorderRoutingCounters</a>            readable   ((tt)(tt)(tt)(tt)uuuuuu)
 </pre></div><div class="refsect1"><a name="gdbus-interface-io-openthread-BorderRouter"></a><h2>Description</h2><p>
 </p><p>
 </p></div><div class="refsect1"><a name="gdbus-methods-io.openthread.BorderRouter"></a><h2>Method Details</h2><div class="refsect2"><a name="gdbus-method-io-openthread-BorderRouter.Scan"></a><h3>The Scan() method</h3><a class="indexterm" name="idm88"></a><pre class="programlisting">
@@ -877,7 +877,7 @@ uint64_t m6To4Packets; // Number of packets translated from IPv6 to IP
 }<br>
 </p></div><p>
 </p></div><div class="refsect2"><a name="gdbus-property-io-openthread-BorderRouter.BorderRoutingCounters"></a><h3>The "BorderRoutingCounters" property</h3><a class="indexterm" name="idm707"></a><pre class="programlisting">
-BorderRoutingCounters  readable   ((tt)(tt)(tt)(tt))
+BorderRoutingCounters  readable   ((tt)(tt)(tt)(tt)uuuuuu)
 </pre><p>
 The counters for inbound/outbound packets
 </p><p>
@@ -899,6 +899,12 @@ struct {  // outbound multicast<br>
 uint64 packets<br>
 uint64 bytes<br>
 }<br>
+uint32  ra_rx;              // The number of received RA packets.<br>
+uint32  ra_tx_success;      // The number of RA packets successfully transmitted.<br>
+uint32  ra_tx_failure;      // The number of RA packets failed to transmit.<br>
+uint32  rs_rx;              // The number of received RS packets.<br>
+uint32  rs_tx_success;      // The number of RS packets successfully transmitted.<br>
+uint32  rs_tx_failure;      // The number of RS packets failed to transmit.<br>
 }<br>
 </p></div><p>
 </p></div></div></div><div class="navfooter"><hr></div></body></html>
