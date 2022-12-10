@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">openthread-br
-   &#160;<span id="projectnumber">0.3.0-e48ff27</span>
+   &#160;<span id="projectnumber">0.3.0-6e0cfbc</span>
    </div>
   </td>
  </tr>
@@ -117,15 +117,15 @@ $(function() {
 <div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../de/d73/classotbr_1_1DBus_1_1DBusThreadObject.html">   61</a></span>&#160;<span class="keyword">class </span><a class="code" href="../../de/d73/classotbr_1_1DBus_1_1DBusThreadObject.html">DBusThreadObject</a> : <span class="keyword">public</span> <a class="code" href="../../da/d4d/classotbr_1_1DBus_1_1DBusObject.html">DBusObject</a></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="../../de/d73/classotbr_1_1DBus_1_1DBusThreadObject.html#ad66f2299ef83715143ffe6e4aa8db1f8">DBusThreadObject</a>(DBusConnection *                 aConnection,</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                     <span class="keyword">const</span> std::string &amp;              aInterfaceName,</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="../../de/d73/classotbr_1_1DBus_1_1DBusThreadObject.html#ad66f2299ef83715143ffe6e4aa8db1f8">DBusThreadObject</a>(DBusConnection                  *aConnection,</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                     <span class="keyword">const</span> std::string               &amp;aInterfaceName,</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                     <a class="code" href="../../db/d17/classotbr_1_1Ncp_1_1ControllerOpenThread.html">otbr::Ncp::ControllerOpenThread</a> *aNcp,</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                     <a class="code" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html">Mdns::Publisher</a> *                aPublisher);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                     <a class="code" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html">Mdns::Publisher</a>                 *aPublisher);</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160; </div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <a class="code" href="../../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa">otbrError</a> <a class="code" href="../../de/d73/classotbr_1_1DBus_1_1DBusThreadObject.html#a56365e35e991a3d5c2462d3c224b27b7">Init</a>(<span class="keywordtype">void</span>) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../de/d73/classotbr_1_1DBus_1_1DBusThreadObject.html#abbb1aaa710d4e6a69b69484a6bdd623c">RegisterGetPropertyHandler</a>(<span class="keyword">const</span> std::string &amp;        aInterfaceName,</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                    <span class="keyword">const</span> std::string &amp;        aPropertyName,</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../de/d73/classotbr_1_1DBus_1_1DBusThreadObject.html#abbb1aaa710d4e6a69b69484a6bdd623c">RegisterGetPropertyHandler</a>(<span class="keyword">const</span> std::string         &amp;aInterfaceName,</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                                    <span class="keyword">const</span> std::string         &amp;aPropertyName,</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                                    <span class="keyword">const</span> PropertyHandlerType &amp;aHandler) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160; </div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="keyword">private</span>:</div>
@@ -212,9 +212,9 @@ $(function() {
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="keywordtype">void</span> ReplyScanResult(<a class="code" href="../../d0/d92/classotbr_1_1DBus_1_1DBusRequest.html">DBusRequest</a> &amp;aRequest, otError aError, <span class="keyword">const</span> std::vector&lt;otActiveScanResult&gt; &amp;aResult);</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordtype">void</span> ReplyEnergyScanResult(<a class="code" href="../../d0/d92/classotbr_1_1DBus_1_1DBusRequest.html">DBusRequest</a> &amp;aRequest, otError aError, <span class="keyword">const</span> std::vector&lt;otEnergyScanResult&gt; &amp;aResult);</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160; </div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <a class="code" href="../../db/d17/classotbr_1_1Ncp_1_1ControllerOpenThread.html">otbr::Ncp::ControllerOpenThread</a> *                    mNcp;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <a class="code" href="../../db/d17/classotbr_1_1Ncp_1_1ControllerOpenThread.html">otbr::Ncp::ControllerOpenThread</a>                     *mNcp;</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    std::unordered_map&lt;std::string, PropertyHandlerType&gt; mGetPropertyHandlers;</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <a class="code" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html">otbr::Mdns::Publisher</a> *                              mPublisher;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <a class="code" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html">otbr::Mdns::Publisher</a>                               *mPublisher;</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;};</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160; </div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;} <span class="comment">// namespace DBus</span></div>
