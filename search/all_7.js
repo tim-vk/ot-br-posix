@@ -13,6 +13,7 @@ var searchData=
   ['handlestatusrequest_231',['HandleStatusRequest',['../d3/d46/classotbr_1_1Web_1_1WpanService.html#a988847b3ca6b43e85212d6fba9079869',1,'otbr::Web::WpanService']]],
   ['hex_2ecpp_232',['hex.cpp',['../d4/dfd/hex_8cpp.html',1,'']]],
   ['hex_2ehpp_233',['hex.hpp',['../df/d51/hex_8hpp.html',1,'']]],
-  ['hostregistration_234',['HostRegistration',['../d4/d91/classotbr_1_1Mdns_1_1Publisher_1_1HostRegistration.html',1,'otbr::Mdns::Publisher']]],
-  ['httpmethod_235',['HttpMethod',['../de/daa/rest_2types_8hpp.html#a06f5b86d59d177d419e9af98c501151b',1,'otbr::rest']]]
+  ['hex2bytesjsonstring_234',['Hex2BytesJsonString',['../d0/d6c/namespaceotbr_1_1rest_1_1Json.html#a0daa253ecdecc06caa846fc2a0a7d375',1,'otbr::rest::Json']]],
+  ['hostregistration_235',['HostRegistration',['../d4/d91/classotbr_1_1Mdns_1_1Publisher_1_1HostRegistration.html',1,'otbr::Mdns::Publisher']]],
+  ['httpmethod_236',['HttpMethod',['../de/daa/rest_2types_8hpp.html#a06f5b86d59d177d419e9af98c501151b',1,'otbr::rest']]]
 ];
