@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">openthread-br
-   &#160;<span id="projectnumber">0.3.0-d5b91db</span>
+   &#160;<span id="projectnumber">0.3.0-a8ba300</span>
    </div>
   </td>
  </tr>
@@ -130,8 +130,6 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aee458a50a8b0d9f51cab57da34ca56b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af72d801fdf5c209038d676516e1ffbab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#af72d801fdf5c209038d676516e1ffbab">SetMeshLocalPrefix</a> (const std::array&lt; uint8_t, OTBR_IP6_PREFIX_SIZE &gt; &amp;aPrefix)</td></tr>
 <tr class="separator:af72d801fdf5c209038d676516e1ffbab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0e8b8012dbbed2cbd09be5008ee4777"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#af0e8b8012dbbed2cbd09be5008ee4777">SetLegacyUlaPrefix</a> (const std::array&lt; uint8_t, OTBR_IP6_PREFIX_SIZE &gt; &amp;aPrefix)</td></tr>
-<tr class="separator:af0e8b8012dbbed2cbd09be5008ee4777"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a77eae8fda9f02cc2a951478259e78550"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a77eae8fda9f02cc2a951478259e78550">SetActiveDatasetTlvs</a> (const std::vector&lt; uint8_t &gt; &amp;aDataset)</td></tr>
 <tr class="separator:a77eae8fda9f02cc2a951478259e78550"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8b47f379c07f709979ac3ab4e91c861"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#af8b47f379c07f709979ac3ab4e91c861">SetFeatureFlagListData</a> (const std::vector&lt; uint8_t &gt; &amp;aFeatureFlagListData)</td></tr>
@@ -2201,39 +2199,6 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[out]</td><td class="paramname">aFeatureFlagListData</td><td>The feature flag list proto serialized byte data (see proto/feature_flag.proto)</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="retval"><dt>Return values</dt><dd>
-  <table class="retval">
-    <tr><td class="paramname">ERROR_NONE</td><td>Successfully performed the dbus function call </td></tr>
-    <tr><td class="paramname">ERROR_DBUS</td><td>dbus encode/decode error </td></tr>
-    <tr><td class="paramname">...</td><td>OpenThread defined error value otherwise </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="af0e8b8012dbbed2cbd09be5008ee4777"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0e8b8012dbbed2cbd09be5008ee4777">&#9670;&nbsp;</a></span>SetLegacyUlaPrefix()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/de9/namespaceotbr_1_1DBus.html#a874640b045462e47baabc7a2e2763e95">ClientError</a> otbr::DBus::ThreadApiDBus::SetLegacyUlaPrefix </td>
-          <td>(</td>
-          <td class="paramtype">const std::array&lt; uint8_t, OTBR_IP6_PREFIX_SIZE &gt; &amp;&#160;</td>
-          <td class="paramname"><em>aPrefix</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p>This method sets the legacy prefix of ConnectIP.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">aPrefix</td><td>The address prefix.</td></tr>
   </table>
   </dd>
 </dl>
