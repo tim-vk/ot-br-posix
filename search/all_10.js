@@ -25,7 +25,7 @@ var searchData=
   ['response_2ehpp_719',['response.hpp',['../db/da4/response_8hpp.html',1,'']]],
   ['responsecounters_720',['ResponseCounters',['../d9/d29/structotbr_1_1DBus_1_1SrpServerInfo_1_1ResponseCounters.html',1,'otbr::DBus::SrpServerInfo']]],
   ['rest_5fweb_5fserver_2ehpp_721',['rest_web_server.hpp',['../d0/d9f/rest__web__server_8hpp.html',1,'']]],
-  ['restwebserver_722',['RestWebServer',['../d8/d5d/classotbr_1_1rest_1_1RestWebServer.html',1,'otbr::rest::RestWebServer'],['../d8/d5d/classotbr_1_1rest_1_1RestWebServer.html#ad239717d27464b7e181e46b203ad7855',1,'otbr::rest::RestWebServer::RestWebServer()']]],
+  ['restwebserver_722',['RestWebServer',['../d8/d5d/classotbr_1_1rest_1_1RestWebServer.html',1,'otbr::rest::RestWebServer'],['../d8/d5d/classotbr_1_1rest_1_1RestWebServer.html#a998dcc3e898b6173c3e8d14753ad0d2a',1,'otbr::rest::RestWebServer::RestWebServer()']]],
   ['resultcallback_723',['ResultCallback',['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a80beefc2c41ca4779bb2e592e1de1da2',1,'otbr::Mdns::Publisher']]],
   ['route2jsonstring_724',['Route2JsonString',['../d0/d6c/namespaceotbr_1_1rest_1_1Json.html#a9fe0ae5bec7fe781b986c237cd2720f3',1,'otbr::rest::Json']]],
   ['routedata2jsonstring_725',['RouteData2JsonString',['../d0/d6c/namespaceotbr_1_1rest_1_1Json.html#af86ee9d297e341e0ec9265d2479c0777',1,'otbr::rest::Json']]],
