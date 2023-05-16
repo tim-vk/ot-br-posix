@@ -52,12 +52,13 @@ var searchData=
   ['getstablenetworkdata_216',['GetStableNetworkData',['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a286514f6270fd8498d88558e23d8ae6f',1,'otbr::DBus::ThreadApiDBus']]],
   ['getstarttime_217',['GetStartTime',['../d2/db0/classotbr_1_1rest_1_1Response.html#ab8a89fbffc91477d2b6a92f656060bf6',1,'otbr::rest::Response']]],
   ['getsupportedchannelmask_218',['GetSupportedChannelMask',['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a587caa89434a2b892c2823f568171c8e',1,'otbr::DBus::ThreadApiDBus']]],
-  ['getthreadhelper_219',['GetThreadHelper',['../db/d17/classotbr_1_1Ncp_1_1ControllerOpenThread.html#ab53e53ecfd87e3bcdf3d4fcddba906bf',1,'otbr::Ncp::ControllerOpenThread']]],
-  ['getthreadversion_220',['GetThreadVersion',['../db/d17/classotbr_1_1Ncp_1_1ControllerOpenThread.html#acdbc62607181e9c999e211fc9a181617',1,'otbr::Ncp::ControllerOpenThread']]],
-  ['gettype_221',['GetType',['../d0/d02/classotbr_1_1Tlv.html#a47958382c4c7759b995a3d64c52b28ff',1,'otbr::Tlv']]],
-  ['geturl_222',['GetUrl',['../da/df0/classotbr_1_1rest_1_1Request.html#a11f6c0ebf75e354af095885b9b604198',1,'otbr::rest::Request']]],
-  ['getvalue_223',['GetValue',['../d0/d02/classotbr_1_1Tlv.html#ad82a79591f301f46b6395e789fe96543',1,'otbr::Tlv']]],
-  ['getvalueuint16_224',['GetValueUInt16',['../d0/d02/classotbr_1_1Tlv.html#a468a2320b7c02132b8f51126eee62a5a',1,'otbr::Tlv']]],
-  ['getvalueuint8_225',['GetValueUInt8',['../d0/d02/classotbr_1_1Tlv.html#ac3a89c1d55affd83750553d95b0cc0fa',1,'otbr::Tlv']]],
-  ['getwpanservicestatus_226',['GetWpanServiceStatus',['../d3/d46/classotbr_1_1Web_1_1WpanService.html#a817c556f7e9cd0ab0939661d3a82fe89',1,'otbr::Web::WpanService']]]
+  ['gettelemetrydata_219',['GetTelemetryData',['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#accdf06e4cc022dfc116594299d9d4204',1,'otbr::DBus::ThreadApiDBus']]],
+  ['getthreadhelper_220',['GetThreadHelper',['../db/d17/classotbr_1_1Ncp_1_1ControllerOpenThread.html#ab53e53ecfd87e3bcdf3d4fcddba906bf',1,'otbr::Ncp::ControllerOpenThread']]],
+  ['getthreadversion_221',['GetThreadVersion',['../db/d17/classotbr_1_1Ncp_1_1ControllerOpenThread.html#acdbc62607181e9c999e211fc9a181617',1,'otbr::Ncp::ControllerOpenThread']]],
+  ['gettype_222',['GetType',['../d0/d02/classotbr_1_1Tlv.html#a47958382c4c7759b995a3d64c52b28ff',1,'otbr::Tlv']]],
+  ['geturl_223',['GetUrl',['../da/df0/classotbr_1_1rest_1_1Request.html#a11f6c0ebf75e354af095885b9b604198',1,'otbr::rest::Request']]],
+  ['getvalue_224',['GetValue',['../d0/d02/classotbr_1_1Tlv.html#ad82a79591f301f46b6395e789fe96543',1,'otbr::Tlv']]],
+  ['getvalueuint16_225',['GetValueUInt16',['../d0/d02/classotbr_1_1Tlv.html#a468a2320b7c02132b8f51126eee62a5a',1,'otbr::Tlv']]],
+  ['getvalueuint8_226',['GetValueUInt8',['../d0/d02/classotbr_1_1Tlv.html#ac3a89c1d55affd83750553d95b0cc0fa',1,'otbr::Tlv']]],
+  ['getwpanservicestatus_227',['GetWpanServiceStatus',['../d3/d46/classotbr_1_1Web_1_1WpanService.html#a817c556f7e9cd0ab0939661d3a82fe89',1,'otbr::Web::WpanService']]]
 ];
