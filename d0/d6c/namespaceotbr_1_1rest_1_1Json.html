@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">openthread-br
-   &#160;<span id="projectnumber">0.3.0-de7cd7b</span>
+   &#160;<span id="projectnumber">0.3.0-9a87cea</span>
    </div>
   </td>
  </tr>
@@ -77,6 +77,8 @@ $(function() {
 Functions</h2></td></tr>
 <tr class="memitem:a9825acdf9bc3300aa48852d9a193a619"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6c/namespaceotbr_1_1rest_1_1Json.html#a9825acdf9bc3300aa48852d9a193a619">String2JsonString</a> (const std::string &amp;aString)</td></tr>
 <tr class="separator:a9825acdf9bc3300aa48852d9a193a619"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28acb5942cb2b2cf7577e8d25359bf34"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6c/namespaceotbr_1_1rest_1_1Json.html#a28acb5942cb2b2cf7577e8d25359bf34">JsonString2String</a> (const std::string &amp;aJsonString, std::string &amp;aString)</td></tr>
+<tr class="separator:a28acb5942cb2b2cf7577e8d25359bf34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada8093c5906874e8736fe53d988e2978"><td class="memItemLeft" align="right" valign="top"><a id="ada8093c5906874e8736fe53d988e2978"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>Json2String</b> (const cJSON *aJson)</td></tr>
 <tr class="separator:ada8093c5906874e8736fe53d988e2978"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -481,6 +483,43 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>JsonActiveDataset2Dat
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>If the <a class="el" href="../../d0/d6c/namespaceotbr_1_1rest_1_1Json.html">Json</a> string has been successfully parsed. </dd></dl>
+
+</div>
+</div>
+<a id="a28acb5942cb2b2cf7577e8d25359bf34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28acb5942cb2b2cf7577e8d25359bf34">&#9670;&nbsp;</a></span>JsonString2String()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool otbr::rest::Json::JsonString2String </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>aJsonString</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>aString</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>This method parses a <a class="el" href="../../d0/d6c/namespaceotbr_1_1rest_1_1Json.html">Json</a> string and checks its datatype and returns a string if it is a string.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">aJsonString</td><td>A <a class="el" href="../../d0/d6c/namespaceotbr_1_1rest_1_1Json.html">Json</a> string. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">aString</td><td>The string.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A boolean indicating whether the <a class="el" href="../../d0/d6c/namespaceotbr_1_1rest_1_1Json.html">Json</a> string was indeed a string. </dd></dl>
 
 </div>
 </div>
