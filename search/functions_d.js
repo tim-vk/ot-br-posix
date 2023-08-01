@@ -11,7 +11,7 @@ var searchData=
   ['otbrlogenablesyslog_1263',['otbrLogEnableSyslog',['../d0/da9/logging_8hpp.html#a762b4410fc095825139d18166e8a64e6',1,'logging.hpp']]],
   ['otbrloggetdefaultlevel_1264',['otbrLogGetDefaultLevel',['../d0/da9/logging_8hpp.html#a5b31d571fd35078bf0d4c1fe252f1e8b',1,'logging.cpp']]],
   ['otbrloggetlevel_1265',['otbrLogGetLevel',['../d0/da9/logging_8hpp.html#afc9ce29e790e067ca79760c96f794d43',1,'logging.cpp']]],
-  ['otbrloginit_1266',['otbrLogInit',['../d0/da9/logging_8hpp.html#a2ab1c49e91aaaac6da657a9e323f5212',1,'logging.cpp']]],
+  ['otbrloginit_1266',['otbrLogInit',['../d0/da9/logging_8hpp.html#a616821845b17b9d0b9781f7beb7f0716',1,'logging.cpp']]],
   ['otbrlogsetlevel_1267',['otbrLogSetLevel',['../d0/da9/logging_8hpp.html#aa4b0bf2713442aa78a8c2ecf5c5f8c5d',1,'logging.cpp']]],
   ['otbrlogv_1268',['otbrLogv',['../d0/da9/logging_8hpp.html#aaf2c504d00faeea0f5e4a8e45ed7a871',1,'logging.cpp']]],
   ['otbrlogvnofilter_1269',['otbrLogvNoFilter',['../d0/da9/logging_8hpp.html#a13b760a72ea9fe45589aa46998847373',1,'logging.cpp']]]
