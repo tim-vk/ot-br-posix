@@ -11,8 +11,9 @@ var searchData=
   ['nd_5fproxy_2ehpp_549',['nd_proxy.hpp',['../d1/d28/nd__proxy_8hpp.html',1,'']]],
   ['needcallback_550',['NeedCallback',['../d2/db0/classotbr_1_1rest_1_1Response.html#a88b2796012b48ef0af14c614c235597a',1,'otbr::rest::Response']]],
   ['neighborinfo_551',['NeighborInfo',['../d2/d47/structotbr_1_1DBus_1_1NeighborInfo.html',1,'otbr::DBus']]],
-  ['node2jsonstring_552',['Node2JsonString',['../d0/d6c/namespaceotbr_1_1rest_1_1Json.html#a6804dde5c7c67da91efeec9fba9c905f',1,'otbr::rest::Json']]],
-  ['nodeinfo_553',['NodeInfo',['../d6/dbf/structotbr_1_1rest_1_1NodeInfo.html',1,'otbr::rest']]],
-  ['noncopyable_554',['NonCopyable',['../dc/d3c/classNonCopyable.html',1,'']]],
-  ['number2jsonstring_555',['Number2JsonString',['../d0/d6c/namespaceotbr_1_1rest_1_1Json.html#a8ca8f1684dd72a37a098f9ea2a2f662f',1,'otbr::rest::Json']]]
+  ['newinstance_552',['newInstance',['../d5/d8a/classotbr_1_1vendor_1_1VendorServer.html#a22d930cbff3cb268cc0fe61cbe33ea1e',1,'otbr::vendor::VendorServer']]],
+  ['node2jsonstring_553',['Node2JsonString',['../d0/d6c/namespaceotbr_1_1rest_1_1Json.html#a6804dde5c7c67da91efeec9fba9c905f',1,'otbr::rest::Json']]],
+  ['nodeinfo_554',['NodeInfo',['../d6/dbf/structotbr_1_1rest_1_1NodeInfo.html',1,'otbr::rest']]],
+  ['noncopyable_555',['NonCopyable',['../dc/d3c/classNonCopyable.html',1,'']]],
+  ['number2jsonstring_556',['Number2JsonString',['../d0/d6c/namespaceotbr_1_1rest_1_1Json.html#a8ca8f1684dd72a37a098f9ea2a2f662f',1,'otbr::rest::Json']]]
 ];
