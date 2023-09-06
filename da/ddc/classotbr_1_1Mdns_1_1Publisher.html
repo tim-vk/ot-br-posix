@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">openthread-br
-   &#160;<span id="projectnumber">0.3.0-4f580b9</span>
+   &#160;<span id="projectnumber">0.3.0-8cd9127</span>
    </div>
   </td>
  </tr>
@@ -116,6 +116,9 @@ Public Types</h2></td></tr>
 , <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a33836f14c4f81a2487616acc08296fa4a25d5606fe07425ea73f245c48612c039">kReady</a>
  }</td></tr>
 <tr class="separator:a33836f14c4f81a2487616acc08296fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9712a32a94a6a510f13ba0f726e181e4"><td class="memItemLeft" align="right" valign="top"><a id="a9712a32a94a6a510f13ba0f726e181e4"></a>
+typedef std::vector&lt; uint8_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>TxtData</b></td></tr>
+<tr class="separator:a9712a32a94a6a510f13ba0f726e181e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82b48b525850f59986482f05949881dd"><td class="memItemLeft" align="right" valign="top"><a id="a82b48b525850f59986482f05949881dd"></a>
 typedef std::vector&lt; <a class="el" href="../../d0/dee/structotbr_1_1Mdns_1_1Publisher_1_1TxtEntry.html">TxtEntry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>TxtList</b></td></tr>
 <tr class="separator:a82b48b525850f59986482f05949881dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -142,8 +145,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adeb467b4e2b34bd533156005f56e0844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75cf59bf3d84ac98c79a29fb22054ec8"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a75cf59bf3d84ac98c79a29fb22054ec8">IsStarted</a> (void) const =0</td></tr>
 <tr class="separator:a75cf59bf3d84ac98c79a29fb22054ec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29fa40d6aafef7f44cfe6735d9931f90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a29fa40d6aafef7f44cfe6735d9931f90">PublishService</a> (const std::string &amp;aHostName, const std::string &amp;aName, const std::string &amp;aType, const SubTypeList &amp;aSubTypeList, uint16_t aPort, const TxtList &amp;aTxtList, <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a80beefc2c41ca4779bb2e592e1de1da2">ResultCallback</a> &amp;&amp;aCallback)</td></tr>
-<tr class="separator:a29fa40d6aafef7f44cfe6735d9931f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f0236ce4d6d8fa867b0081e72673bf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a5f0236ce4d6d8fa867b0081e72673bf4">PublishService</a> (const std::string &amp;aHostName, const std::string &amp;aName, const std::string &amp;aType, const SubTypeList &amp;aSubTypeList, uint16_t aPort, const TxtData &amp;aTxtData, <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a80beefc2c41ca4779bb2e592e1de1da2">ResultCallback</a> &amp;&amp;aCallback)</td></tr>
+<tr class="separator:a5f0236ce4d6d8fa867b0081e72673bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a703966ce046891e48cd53461bf28e7c7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a703966ce046891e48cd53461bf28e7c7">UnpublishService</a> (const std::string &amp;aName, const std::string &amp;aType, <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a80beefc2c41ca4779bb2e592e1de1da2">ResultCallback</a> &amp;&amp;aCallback)=0</td></tr>
 <tr class="separator:a703966ce046891e48cd53461bf28e7c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a365f39ea97f43fc88ec1298d6801c02f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a365f39ea97f43fc88ec1298d6801c02f">PublishHost</a> (const std::string &amp;aName, const std::vector&lt; <a class="el" href="../../d2/dfe/classotbr_1_1Ip6Address.html">Ip6Address</a> &gt; &amp;aAddresses, <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a80beefc2c41ca4779bb2e592e1de1da2">ResultCallback</a> &amp;&amp;aCallback)</td></tr>
@@ -171,8 +174,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a2dbb88b5800232156357286996e9f163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a764c8e33ecdf355a4eaf60292e9484c2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a764c8e33ecdf355a4eaf60292e9484c2">Destroy</a> (<a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html">Publisher</a> *aPublisher)</td></tr>
 <tr class="separator:a764c8e33ecdf355a4eaf60292e9484c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a362b6086d307ece31b497d90944d5bef"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa">otbrError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a362b6086d307ece31b497d90944d5bef">EncodeTxtData</a> (const TxtList &amp;aTxtList, std::vector&lt; uint8_t &gt; &amp;aTxtData)</td></tr>
-<tr class="separator:a362b6086d307ece31b497d90944d5bef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac60c6c3a67d0e5c92085273029bcaca5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa">otbrError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#ac60c6c3a67d0e5c92085273029bcaca5">EncodeTxtData</a> (const TxtList &amp;aTxtList, TxtData &amp;aTxtData)</td></tr>
+<tr class="separator:ac60c6c3a67d0e5c92085273029bcaca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb3784d13ebd0b8e9d54f4f746d260ad"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa">otbrError</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#aeb3784d13ebd0b8e9d54f4f746d260ad">DecodeTxtData</a> (TxtList &amp;aTxtList, const uint8_t *aTxtData, uint16_t aTxtLength)</td></tr>
 <tr class="separator:aeb3784d13ebd0b8e9d54f4f746d260ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -193,9 +196,9 @@ using&#160;</td><td class="memItemRight" valign="bottom"><b>HostRegistrationMap<
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a7937cc90bed35fa9ffeddff9b5d02ab9"><td class="memItemLeft" align="right" valign="top"><a id="a7937cc90bed35fa9ffeddff9b5d02ab9"></a>
-virtual <a class="el" href="../../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa">otbrError</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PublishServiceImpl</b> (const std::string &amp;aHostName, const std::string &amp;aName, const std::string &amp;aType, const SubTypeList &amp;aSubTypeList, uint16_t aPort, const TxtList &amp;aTxtList, <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a80beefc2c41ca4779bb2e592e1de1da2">ResultCallback</a> &amp;&amp;aCallback)=0</td></tr>
-<tr class="separator:a7937cc90bed35fa9ffeddff9b5d02ab9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8cfe13192be1133678aa4d7ad50dc83"><td class="memItemLeft" align="right" valign="top"><a id="aa8cfe13192be1133678aa4d7ad50dc83"></a>
+virtual <a class="el" href="../../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa">otbrError</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PublishServiceImpl</b> (const std::string &amp;aHostName, const std::string &amp;aName, const std::string &amp;aType, const SubTypeList &amp;aSubTypeList, uint16_t aPort, const TxtData &amp;aTxtData, <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a80beefc2c41ca4779bb2e592e1de1da2">ResultCallback</a> &amp;&amp;aCallback)=0</td></tr>
+<tr class="separator:aa8cfe13192be1133678aa4d7ad50dc83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9b9fb41b10ea56553a8547f5999515c"><td class="memItemLeft" align="right" valign="top"><a id="ad9b9fb41b10ea56553a8547f5999515c"></a>
 virtual <a class="el" href="../../dc/d53/common_2types_8hpp.html#a9addd74a14dca1dab1b3e7a8205455aa">otbrError</a>&#160;</td><td class="memItemRight" valign="bottom"><b>PublishHostImpl</b> (const std::string &amp;aName, const std::vector&lt; <a class="el" href="../../d2/dfe/classotbr_1_1Ip6Address.html">Ip6Address</a> &gt; &amp;aAddresses, <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a80beefc2c41ca4779bb2e592e1de1da2">ResultCallback</a> &amp;&amp;aCallback)=0</td></tr>
 <tr class="separator:ad9b9fb41b10ea56553a8547f5999515c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,9 +235,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>OnHostResolved</b> (s
 <tr class="memitem:a7d93286819ebc2e7cb84c8fdeef156c4"><td class="memItemLeft" align="right" valign="top"><a id="a7d93286819ebc2e7cb84c8fdeef156c4"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>OnHostResolveFailed</b> (std::string aHostName, int32_t aErrorCode)</td></tr>
 <tr class="separator:a7d93286819ebc2e7cb84c8fdeef156c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad30ecbec302ef780c3214084ff8bbc20"><td class="memItemLeft" align="right" valign="top"><a id="ad30ecbec302ef780c3214084ff8bbc20"></a>
-<a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a80beefc2c41ca4779bb2e592e1de1da2">ResultCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><b>HandleDuplicateServiceRegistration</b> (const std::string &amp;aHostName, const std::string &amp;aName, const std::string &amp;aType, const SubTypeList &amp;aSubTypeList, uint16_t aPort, const TxtList &amp;aTxtList, <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a80beefc2c41ca4779bb2e592e1de1da2">ResultCallback</a> &amp;&amp;aCallback)</td></tr>
-<tr class="separator:ad30ecbec302ef780c3214084ff8bbc20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea4f0a1bbcec90cffafbddae5841bb5b"><td class="memItemLeft" align="right" valign="top"><a id="aea4f0a1bbcec90cffafbddae5841bb5b"></a>
+<a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a80beefc2c41ca4779bb2e592e1de1da2">ResultCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><b>HandleDuplicateServiceRegistration</b> (const std::string &amp;aHostName, const std::string &amp;aName, const std::string &amp;aType, const SubTypeList &amp;aSubTypeList, uint16_t aPort, const TxtData &amp;aTxtData, <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a80beefc2c41ca4779bb2e592e1de1da2">ResultCallback</a> &amp;&amp;aCallback)</td></tr>
+<tr class="separator:aea4f0a1bbcec90cffafbddae5841bb5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81420b0be948150f5404ac4ccedde605"><td class="memItemLeft" align="right" valign="top"><a id="a81420b0be948150f5404ac4ccedde605"></a>
 <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a80beefc2c41ca4779bb2e592e1de1da2">ResultCallback</a>&#160;</td><td class="memItemRight" valign="bottom"><b>HandleDuplicateHostRegistration</b> (const std::string &amp;aName, const std::vector&lt; <a class="el" href="../../d2/dfe/classotbr_1_1Ip6Address.html">Ip6Address</a> &gt; &amp;aAddresses, <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a80beefc2c41ca4779bb2e592e1de1da2">ResultCallback</a> &amp;&amp;aCallback)</td></tr>
 <tr class="separator:a81420b0be948150f5404ac4ccedde605"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,9 +268,6 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:a5d9930c36bb3b3fce3be085c9f095998"><td class="memItemLeft" align="right" valign="top"><a id="a5d9930c36bb3b3fce3be085c9f095998"></a>
 static SubTypeList&#160;</td><td class="memItemRight" valign="bottom"><b>SortSubTypeList</b> (SubTypeList aSubTypeList)</td></tr>
 <tr class="separator:a5d9930c36bb3b3fce3be085c9f095998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5746cdf2dfdbad8e925f67779fe73cb3"><td class="memItemLeft" align="right" valign="top"><a id="a5746cdf2dfdbad8e925f67779fe73cb3"></a>
-static TxtList&#160;</td><td class="memItemRight" valign="bottom"><b>SortTxtList</b> (TxtList aTxtList)</td></tr>
-<tr class="separator:a5746cdf2dfdbad8e925f67779fe73cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1475aa62a8170bbd038d609f843d3160"><td class="memItemLeft" align="right" valign="top"><a id="a1475aa62a8170bbd038d609f843d3160"></a>
 static AddressList&#160;</td><td class="memItemRight" valign="bottom"><b>SortAddressList</b> (AddressList aAddressList)</td></tr>
 <tr class="separator:a1475aa62a8170bbd038d609f843d3160"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -541,7 +541,7 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>k
   </table>
   </dd>
 </dl>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a362b6086d307ece31b497d90944d5bef">EncodeTxtData</a> </dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#ac60c6c3a67d0e5c92085273029bcaca5">EncodeTxtData</a> </dd></dl>
 
 </div>
 </div>
@@ -578,8 +578,8 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>k
 
 </div>
 </div>
-<a id="a362b6086d307ece31b497d90944d5bef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a362b6086d307ece31b497d90944d5bef">&#9670;&nbsp;</a></span>EncodeTxtData()</h2>
+<a id="ac60c6c3a67d0e5c92085273029bcaca5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac60c6c3a67d0e5c92085273029bcaca5">&#9670;&nbsp;</a></span>EncodeTxtData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -596,7 +596,7 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>k
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; uint8_t &gt; &amp;&#160;</td>
+          <td class="paramtype">TxtData &amp;&#160;</td>
           <td class="paramname"><em>aTxtData</em>&#160;</td>
         </tr>
         <tr>
@@ -738,8 +738,8 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>k
 
 </div>
 </div>
-<a id="a29fa40d6aafef7f44cfe6735d9931f90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29fa40d6aafef7f44cfe6735d9931f90">&#9670;&nbsp;</a></span>PublishService()</h2>
+<a id="a5f0236ce4d6d8fa867b0081e72673bf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f0236ce4d6d8fa867b0081e72673bf4">&#9670;&nbsp;</a></span>PublishService()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -777,8 +777,8 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>k
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const TxtList &amp;&#160;</td>
-          <td class="paramname"><em>aTxtList</em>, </td>
+          <td class="paramtype">const TxtData &amp;&#160;</td>
+          <td class="paramname"><em>aTxtData</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -801,7 +801,7 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>k
     <tr><td class="paramdir">[in]</td><td class="paramname">aType</td><td>The type of this service. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aSubTypeList</td><td>A list of service subtypes. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aPort</td><td>The port number of this service. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">aTxtList</td><td>A list of TXT name/value pairs. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aTxtData</td><td>The encoded TXT data for this service. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aCallback</td><td>The callback for receiving the publishing result. <code>OTBR_ERROR_NONE</code> will be returned if the operation is successful and all other values indicate a failure. Specifically, <code>OTBR_ERROR_DUPLICATED</code> indicates that the name has already been published and the caller can re-publish with a new name if an alternative name is available/acceptable. </td></tr>
   </table>
   </dd>
