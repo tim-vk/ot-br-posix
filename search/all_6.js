@@ -27,7 +27,7 @@ var searchData=
   ['getlinklocalallnodesmulticastaddress_192',['GetLinkLocalAllNodesMulticastAddress',['../d2/dfe/classotbr_1_1Ip6Address.html#ac80080b641b1ee8d8dce8d62960a6ed1',1,'otbr::Ip6Address']]],
   ['getlinkmode_193',['GetLinkMode',['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a74350f476c0775c66b00dc23c251601c',1,'otbr::DBus::ThreadApiDBus']]],
   ['getlocalleaderweight_194',['GetLocalLeaderWeight',['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a34f76cc8dce6060b9b71f05bf21db575',1,'otbr::DBus::ThreadApiDBus']]],
-  ['getmdnstelemetryinfo_195',['GetMdnsTelemetryInfo',['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a87426e9881c604505d9650abb34ef454',1,'otbr::DBus::ThreadApiDBus::GetMdnsTelemetryInfo()'],['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#a89961f49fdddfcc2700ed26ea24735af',1,'otbr::Mdns::Publisher::GetMdnsTelemetryInfo()']]],
+  ['getmdnstelemetryinfo_195',['GetMdnsTelemetryInfo',['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a87426e9881c604505d9650abb34ef454',1,'otbr::DBus::ThreadApiDBus::GetMdnsTelemetryInfo()'],['../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#ac0eb0ba9e9adcc46ef0bbd7b8d0d22e4',1,'otbr::Mdns::Publisher::GetMdnsTelemetryInfo()']]],
   ['getmessage_196',['GetMessage',['../d0/d92/classotbr_1_1DBus_1_1DBusRequest.html#a879f418bc6986d20c2bdb6aa07f5afa0',1,'otbr::DBus::DBusRequest']]],
   ['getmethod_197',['GetMethod',['../da/df0/classotbr_1_1rest_1_1Request.html#a819e3562094a0605d484cf6129d21c50',1,'otbr::rest::Request']]],
   ['getnat64errorcounters_198',['GetNat64ErrorCounters',['../df/dcc/classotbr_1_1DBus_1_1ThreadApiDBus.html#a7deae8ddfb188ae5a10f7c9f3eaad9f4',1,'otbr::DBus::ThreadApiDBus']]],

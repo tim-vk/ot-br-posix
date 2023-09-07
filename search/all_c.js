@@ -8,7 +8,7 @@ var searchData=
   ['macaddress_318',['MacAddress',['../db/d8f/classotbr_1_1MacAddress.html#a2f480004ad0ab8789f5a7433e41e14c9',1,'otbr::MacAddress::MacAddress()'],['../db/d8f/classotbr_1_1MacAddress.html',1,'otbr::MacAddress']]],
   ['maccounters_319',['MacCounters',['../d6/d98/structotbr_1_1DBus_1_1MacCounters.html',1,'otbr::DBus']]],
   ['maccounters2jsonstring_320',['MacCounters2JsonString',['../d0/d6c/namespaceotbr_1_1rest_1_1Json.html#ab16bc2f2643c3ccaa81b3e56963653ae',1,'otbr::rest::Json']]],
-  ['maddresses_321',['mAddresses',['../d9/db0/structotbr_1_1Mdns_1_1Publisher_1_1DiscoveredHostInfo.html#a1d85c07ae63c07f8071f4e0e77d2fd5f',1,'otbr::Mdns::Publisher::DiscoveredHostInfo::mAddresses()'],['../d9/d60/structotbr_1_1Mdns_1_1Publisher_1_1DiscoveredInstanceInfo.html#a5ab20953e621f6c59126ff9518998499',1,'otbr::Mdns::Publisher::DiscoveredInstanceInfo::mAddresses()']]],
+  ['maddresses_321',['mAddresses',['../d9/db0/structotbr_1_1Mdns_1_1Publisher_1_1DiscoveredHostInfo.html#a1f5e487c39e9fca83ce39948898e8010',1,'otbr::Mdns::Publisher::DiscoveredHostInfo::mAddresses()'],['../d9/d60/structotbr_1_1Mdns_1_1Publisher_1_1DiscoveredInstanceInfo.html#a5ab20953e621f6c59126ff9518998499',1,'otbr::Mdns::Publisher::DiscoveredInstanceInfo::mAddresses()']]],
   ['maddressmode_322',['mAddressMode',['../d9/dc0/structotbr_1_1DBus_1_1SrpServerInfo.html#a73095fd263a8e610425fafb722cdca2e',1,'otbr::DBus::SrpServerInfo']]],
   ['mage_323',['mAge',['../d2/d47/structotbr_1_1DBus_1_1NeighborInfo.html#ae480b3fbb8acde6e716ee8b2b2cd12f0',1,'otbr::DBus::NeighborInfo::mAge()'],['../db/d06/structotbr_1_1DBus_1_1ChildInfo.html#a1a96b59a6dd88f30a97f45c90e2c240d',1,'otbr::DBus::ChildInfo::mAge()']]],
   ['main_2ecpp_324',['main.cpp',['../db/d70/web_2main_8cpp.html',1,'']]],
