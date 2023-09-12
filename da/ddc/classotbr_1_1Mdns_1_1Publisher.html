@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">openthread-br
-   &#160;<span id="projectnumber">0.3.0-4e75260</span>
+   &#160;<span id="projectnumber">0.3.0-d6392d0</span>
    </div>
   </td>
  </tr>
@@ -799,7 +799,7 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>k
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">aHostName</td><td>The name of the host which this service resides on. If an empty string is provided, this service resides on local host and it is the implementation to provide specific host name. Otherwise, the caller MUST publish the host with method PublishHost. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aName</td><td>The name of this service. If an empty string is provided, the service's name will be the same as the platform's hostname. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">aType</td><td>The type of this service. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aType</td><td>The type of this service, e.g., "_srv._udp" (MUST NOT end with dot). </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aSubTypeList</td><td>A list of service subtypes. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aPort</td><td>The port number of this service. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aTxtData</td><td>The encoded TXT data for this service. </td></tr>
@@ -975,7 +975,7 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>k
 <dl class="section note"><dt>Note</dt><dd>Discovery Proxy implementation guarantees no duplicate subscriptions for the same service or service instance.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">aType</td><td>The service type. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aType</td><td>The service type, e.g., "_srv._udp" (MUST NOT end with dot). </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aInstanceName</td><td>The service instance to subscribe, or empty to subscribe the service. </td></tr>
   </table>
   </dd>
@@ -1021,7 +1021,7 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>k
 <p>This method un-publishes a host.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">aName</td><td>A host name. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aName</td><td>A host name (MUST not end with dot). </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aCallback</td><td>The callback for receiving the publishing result. </td></tr>
   </table>
   </dd>
@@ -1074,7 +1074,7 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>k
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">aName</td><td>The name of this service. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">aType</td><td>The type of this service. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aType</td><td>The type of this service, e.g., "_srv._udp" (MUST NOT end with dot). </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aCallback</td><td>The callback for receiving the publishing result. </td></tr>
   </table>
   </dd>
@@ -1158,7 +1158,7 @@ static constexpr uint8_t&#160;</td><td class="memItemRight" valign="bottom"><b>k
 <dl class="section note"><dt>Note</dt><dd>Discovery Proxy implementation guarantees no redundant unsubscription for a service or service instance.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">aType</td><td>The service type. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aType</td><td>The service type, e.g., "_srv._udp" (MUST NOT end with dot). </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">aInstanceName</td><td>The service instance to unsubscribe, or empty to unsubscribe the service. </td></tr>
   </table>
   </dd>
