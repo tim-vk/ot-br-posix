@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">openthread-br
-   &#160;<span id="projectnumber">0.3.0-f3632b9</span>
+   &#160;<span id="projectnumber">0.3.0-65a1949</span>
    </div>
   </td>
  </tr>
@@ -84,8 +84,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a22d930cbff3cb268cc0fe61cbe33ea1e"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="../../d5/d8a/classotbr_1_1vendor_1_1VendorServer.html">VendorServer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8a/classotbr_1_1vendor_1_1VendorServer.html#a22d930cbff3cb268cc0fe61cbe33ea1e">newInstance</a> (<a class="el" href="../../db/d17/classotbr_1_1Ncp_1_1ControllerOpenThread.html">otbr::Ncp::ControllerOpenThread</a> &amp;aNcp)</td></tr>
-<tr class="separator:a22d930cbff3cb268cc0fe61cbe33ea1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9fda081680824f22fd689743c201010"><td class="memItemLeft" align="right" valign="top">static std::shared_ptr&lt; <a class="el" href="../../d5/d8a/classotbr_1_1vendor_1_1VendorServer.html">VendorServer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8a/classotbr_1_1vendor_1_1VendorServer.html#ad9fda081680824f22fd689743c201010">newInstance</a> (<a class="el" href="../../d5/d01/structotbr_1_1Application.html">Application</a> &amp;aApplication)</td></tr>
+<tr class="separator:ad9fda081680824f22fd689743c201010"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An interface for customized behavior depending on OpenThread API and state. </p>
@@ -118,8 +118,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a22d930cbff3cb268cc0fe61cbe33ea1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22d930cbff3cb268cc0fe61cbe33ea1e">&#9670;&nbsp;</a></span>newInstance()</h2>
+<a id="ad9fda081680824f22fd689743c201010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9fda081680824f22fd689743c201010">&#9670;&nbsp;</a></span>newInstance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -130,8 +130,8 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">static std::shared_ptr&lt;<a class="el" href="../../d5/d8a/classotbr_1_1vendor_1_1VendorServer.html">VendorServer</a>&gt; otbr::vendor::VendorServer::newInstance </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d17/classotbr_1_1Ncp_1_1ControllerOpenThread.html">otbr::Ncp::ControllerOpenThread</a> &amp;&#160;</td>
-          <td class="paramname"><em>aNcp</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d5/d01/structotbr_1_1Application.html">Application</a> &amp;&#160;</td>
+          <td class="paramname"><em>aApplication</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -145,7 +145,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Custom vendor servers should implement this method to return an object of the derived class.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">aNcp</td><td>The OpenThread controller object.</td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">aApplication</td><td>The OTBR application.</td></tr>
   </table>
   </dd>
 </dl>
