@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">openthread-br
-   &#160;<span id="projectnumber">0.3.0-0a662d7</span>
+   &#160;<span id="projectnumber">0.3.0-2dfff2a</span>
    </div>
   </td>
  </tr>
@@ -97,6 +97,8 @@ Inheritance diagram for otbr::Mdns::Publisher:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d17/structotbr_1_1Mdns_1_1Publisher_1_1DiscoverCallback.html">DiscoverCallback</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db0/structotbr_1_1Mdns_1_1Publisher_1_1DiscoveredHostInfo.html">DiscoveredHostInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d60/structotbr_1_1Mdns_1_1Publisher_1_1DiscoveredInstanceInfo.html">DiscoveredInstanceInfo</a></td></tr>
@@ -295,9 +297,9 @@ HostRegistrationMap&#160;</td><td class="memItemRight" valign="bottom"><b>mHostR
 <tr class="memitem:afb74cd41a2f01681db65bdaaa20b16f2"><td class="memItemLeft" align="right" valign="top"><a id="afb74cd41a2f01681db65bdaaa20b16f2"></a>
 uint64_t&#160;</td><td class="memItemRight" valign="bottom"><b>mNextSubscriberId</b> = 1</td></tr>
 <tr class="separator:afb74cd41a2f01681db65bdaaa20b16f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70fd75dce8bc6f8b2ba6bd6f6fa74469"><td class="memItemLeft" align="right" valign="top"><a id="a70fd75dce8bc6f8b2ba6bd6f6fa74469"></a>
-std::map&lt; uint64_t, std::pair&lt; <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#ae28cea59926db61523595d4e6967afd7">DiscoveredServiceInstanceCallback</a>, <a class="el" href="../../da/ddc/classotbr_1_1Mdns_1_1Publisher.html#aea1cfd72140d8d469b149ee279b44766">DiscoveredHostCallback</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>mDiscoveredCallbacks</b></td></tr>
-<tr class="separator:a70fd75dce8bc6f8b2ba6bd6f6fa74469"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42c9f0745da16fd22056664eb82c302d"><td class="memItemLeft" align="right" valign="top"><a id="a42c9f0745da16fd22056664eb82c302d"></a>
+std::list&lt; <a class="el" href="../../d0/d17/structotbr_1_1Mdns_1_1Publisher_1_1DiscoverCallback.html">DiscoverCallback</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>mDiscoverCallbacks</b></td></tr>
+<tr class="separator:a42c9f0745da16fd22056664eb82c302d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68a9d4fba80da4c041e3bc22651057a7"><td class="memItemLeft" align="right" valign="top"><a id="a68a9d4fba80da4c041e3bc22651057a7"></a>
 std::map&lt; std::pair&lt; std::string, std::string &gt;, Timepoint &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>mServiceRegistrationBeginTime</b></td></tr>
 <tr class="separator:a68a9d4fba80da4c041e3bc22651057a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
