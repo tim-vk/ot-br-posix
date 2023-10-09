@@ -94,7 +94,7 @@ var searchData=
   ['mnameerrorresponse_411',['mNameErrorResponse',['../d0/daa/structotbr_1_1DBus_1_1DnssdCounters.html#ac0cb7dab94a7c07f2a8abab7156492de',1,'otbr::DBus::DnssdCounters']]],
   ['mnameexists_412',['mNameExists',['../d9/d29/structotbr_1_1DBus_1_1SrpServerInfo_1_1ResponseCounters.html#a5fdde76832f9d5c9605d82973d1ff3c6',1,'otbr::DBus::SrpServerInfo::ResponseCounters']]],
   ['mnddns_413',['mNdDns',['../d5/d02/structotbr_1_1DBus_1_1OnMeshPrefix.html#a11c9f28f9eb3e2d725ddf9532b3208ef',1,'otbr::DBus::OnMeshPrefix']]],
-  ['mnetifindex_414',['mNetifIndex',['../d9/d60/structotbr_1_1Mdns_1_1Publisher_1_1DiscoveredInstanceInfo.html#ad4463c1ef974733f82d95071754206c5',1,'otbr::Mdns::Publisher::DiscoveredInstanceInfo']]],
+  ['mnetifindex_414',['mNetifIndex',['../d9/d60/structotbr_1_1Mdns_1_1Publisher_1_1DiscoveredInstanceInfo.html#ad4463c1ef974733f82d95071754206c5',1,'otbr::Mdns::Publisher::DiscoveredInstanceInfo::mNetifIndex()'],['../d9/db0/structotbr_1_1Mdns_1_1Publisher_1_1DiscoveredHostInfo.html#af7ced7e1a2539bbe9be42694a8067d7c',1,'otbr::Mdns::Publisher::DiscoveredHostInfo::mNetifIndex()']]],
   ['mnetworkdata_415',['mNetworkData',['../d1/d82/structotbr_1_1DBus_1_1LinkModeConfig.html#a4d76fd7e83e0ceae739889949d1e0598',1,'otbr::DBus::LinkModeConfig']]],
   ['mnetworkdataversion_416',['mNetworkDataVersion',['../db/d06/structotbr_1_1DBus_1_1ChildInfo.html#a1eff208aa7481453e31871710dbe9b46',1,'otbr::DBus::ChildInfo']]],
   ['mnetworkname_417',['mNetworkName',['../d2/da8/structotbr_1_1DBus_1_1ActiveScanResult.html#a171dd1c157602e90f16997a84c228f65',1,'otbr::DBus::ActiveScanResult']]],
