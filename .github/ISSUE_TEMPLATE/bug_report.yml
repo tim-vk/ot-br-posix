@@ -21,7 +21,7 @@ body:
   - type: textarea
     attributes:
       label: Log info
-      placeholder: "if available, copy/paste the relevant logs here".
+      placeholder: "if available, copy/paste the relevant logs here."
   - type: textarea
     attributes:
       label: Additional Context
