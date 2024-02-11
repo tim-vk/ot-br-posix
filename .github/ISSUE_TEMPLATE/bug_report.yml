@@ -8,9 +8,9 @@ body:
       label: Issue
       descripotion: >-
         Describe the issue. Try to be clear and consise. What behavior did you expect & what was the (undesired) result? If available include:
-    - IEEE 802.15.4 hardware platform
-    - build steps
-    - network topology
+    >- IEEE 802.15.4 hardware platform
+    >- build steps
+    >- network topology
   - type: input
     id: version
     validations:
