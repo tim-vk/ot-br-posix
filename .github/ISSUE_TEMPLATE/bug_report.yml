@@ -17,7 +17,7 @@ body:
       required: true
     attributes:
       label: What version (git hash, release version or docker label) has the issue?
-    description: Please be precise.
+      description: Please be precise.
   - type: textarea
     attributes:
       label: Log info
