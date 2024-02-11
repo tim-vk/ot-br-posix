@@ -1,0 +1,29 @@
+name: Bug report
+about: Create a report to help us improve
+body:
+  - type: textarea
+    validations:
+      required: true
+    attributes:
+      label: Issue
+      descripotion: >-
+        Describe the issue. Try to be clear and consise. What behavior did you expect & what was the (undesired) result? If available include:
+    - IEEE 802.15.4 hardware platform
+    - build steps
+    - network topology
+  - type: input
+    id: version
+    validations:
+      required: true
+    attributes:
+      label: What version (git hash, release version or docker label) has the issue?
+    description: Please be precise.
+  - type: textarea
+    attributes:
+      label: Log info
+      placeholder: "if available, copy/paste the relevant logs here".
+  - type: textarea
+    attributes:
+      label: Additional Context
+      description: >
+        Any additional context can be added in the field below.
